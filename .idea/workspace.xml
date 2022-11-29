@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DVvaJkLF2VaEkqpHbgi8cCONoN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Java/DSA/Leetcode",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.FirstAndLastPositionSortedArray">
+    <configuration name="FindAllNumbersDisppearedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.FindAllNumbersDisppearedArray" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindNumbersEvenNumberOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.FindNumbersEvenNumberOfDigits" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstAndLastPositionSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.medium.FirstAndLastPositionSortedArray" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntersectionOfTwoArraysTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.IntersectionOfTwoArraysTwo" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.NextGreaterElement" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FirstAndLastPositionSortedArray" />
+        <item itemvalue="Application.NextGreaterElement" />
+        <item itemvalue="Application.FindAllNumbersDisppearedArray" />
+        <item itemvalue="Application.IntersectionOfTwoArraysTwo" />
+        <item itemvalue="Application.FindNumbersEvenNumberOfDigits" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="" />
+      <created>1660797130337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660797130337</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Count number of pairs with absolute difference K">
+      <created>1667223194619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667223194619</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Count equal divisible pairs">
+      <created>1667223554735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667223554735</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Find K distant Indices">
+      <created>1667224164431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667224164431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Number of arithmatic triplets">
+      <created>1667224979559</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667224979559</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Number of arithmatic triplets refactored package">
+      <created>1667225060290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667225060290</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Find subarrays with equal sum">
+      <created>1667225668950</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667225668950</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Largest positive integer which exists with its negative">
+      <created>1667226500458</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667226500458</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finding three digit even numbers">
+      <created>1667228262629</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667228262629</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Find missing number">
+      <created>1667229261671</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667229261671</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Intersection of two arrays">
+      <created>1667230754227</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667230754227</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Intersection of two arrays refactored">
+      <created>1667230785862</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667230785862</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Difference of two arrays">
+      <created>1667236244773</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667236244773</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Intersection of multiple arrays">
+      <created>1667236756159</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667236756159</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Find numbers with even number of digits">
+      <created>1667236978500</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667236978500</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Intersection of two arrays two">
+      <created>1667237620148</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667237620148</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Find all numbers disappeared in array">
+      <created>1667238331377</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667238331378</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Find first and last position of element in sorted array">
+      <created>1669744273926</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669744273926</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Find first and last position of element in sorted array">
+      <created>1669744595139</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669744595139</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Count number of pairs with absolute difference K" />
+    <MESSAGE value="Count equal divisible pairs" />
+    <MESSAGE value="Find K distant Indices" />
+    <MESSAGE value="Number of arithmatic triplets" />
+    <MESSAGE value="Number of arithmatic triplets refactored package" />
+    <MESSAGE value="Find subarrays with equal sum" />
+    <MESSAGE value="Largest positive integer which exists with its negative" />
+    <MESSAGE value="Finding three digit even numbers" />
+    <MESSAGE value="Find missing number" />
+    <MESSAGE value="Intersection of two arrays" />
+    <MESSAGE value="Intersection of two arrays refactored" />
+    <MESSAGE value="Difference of two arrays" />
+    <MESSAGE value="Intersection of multiple arrays" />
+    <MESSAGE value="Find numbers with even number of digits" />
+    <MESSAGE value="Intersection of two arrays two" />
+    <MESSAGE value="Find all numbers disappeared in array" />
+    <MESSAGE value="Find first and last position of element in sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find first and last position of element in sorted array" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/hashtable/LargestPositiveIntegerThatExistsWithItsNegative.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/hashtable/IntersectionOfTwoArrays.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/hashtable/IntersectionOfTwoArrays.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/FindAllNumbersDisppearedArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/FindAllNumbersDisppearedArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/medium/FirstAndLastPositionSortedArray.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/medium/FirstAndLastPositionSortedArray.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/medium/FirstAndLastPositionSortedArray.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
