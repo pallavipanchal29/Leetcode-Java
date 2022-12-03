@@ -1,4 +1,4 @@
-package array.easy;
+package array.easy.TwoPointers;
 
 public class CountEqualDivisiblePairsArray {
     //Time Complexity : O(N square)

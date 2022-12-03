@@ -1,4 +1,4 @@
-package array.easy;
+package array.easy.TwoPointers;
 
 import java.util.ArrayList;
 import java.util.List;
