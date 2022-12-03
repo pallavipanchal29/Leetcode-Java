@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/MostFrequentNumberFollowingKeyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/math/AverageValueEvenNumbersDivisibleByThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MostFrequentNumberFollowingKeyArray">
+  <component name="RunManager" selected="Application.AverageValueEvenNumbersDivisibleByThree">
+    <configuration name="AverageValueEvenNumbersDivisibleByThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.math.AverageValueEvenNumbersDivisibleByThree" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DivideArrayEqualPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.DivideArrayEqualPairs" />
       <module name="Leetcode" />
@@ -91,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.hashtable.MostFrequentEvenElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.MostFrequentEvenElement" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AverageValueEvenNumbersDivisibleByThree" />
         <item itemvalue="Application.MostFrequentNumberFollowingKeyArray" />
         <item itemvalue="Application.DivideArrayEqualPairs" />
         <item itemvalue="Application.SortArrayByIncreasingFrequency" />
         <item itemvalue="Application.SortThePeople" />
-        <item itemvalue="Application.array.easy.hashtable.MostFrequentEvenElement" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670050935850</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Most frequent number following key in array">
+      <created>1670051334535</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670051334535</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -313,7 +320,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Count number of pairs with absolute difference K" />
     <MESSAGE value="Count equal divisible pairs" />
     <MESSAGE value="Find K distant Indices" />
     <MESSAGE value="Number of arithmatic triplets" />
@@ -338,7 +344,8 @@
     <MESSAGE value="Sort The People" />
     <MESSAGE value="sort array by increasing frequency" />
     <MESSAGE value="Divide array into equal pairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Divide array into equal pairs" />
+    <MESSAGE value="Most frequent number following key in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Most frequent number following key in array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
