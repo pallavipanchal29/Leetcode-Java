@@ -8,6 +8,8 @@ public class MostFrequentEvenElement {
         System.out.println(mostFrequentEven(arr));
     }
 
+    //Time Complexity : O(N)+O(N) => O(N)
+    //Space complexity : O(N)
     public static int mostFrequentEven(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
