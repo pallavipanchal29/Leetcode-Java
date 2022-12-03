@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/easy/DetermineIfStringHalvesAlike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/MostFrequentEvenElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DetermineIfStringHalvesAlike">
+  <component name="RunManager" selected="Application.MostFrequentEvenElement">
     <configuration name="DetermineIfStringHalvesAlike" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.DetermineIfStringHalvesAlike" />
       <module name="Leetcode" />
@@ -79,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoArraysTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.IntersectionOfTwoArraysTwo" />
+    <configuration name="MostFrequentEvenElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.MostFrequentEvenElement" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.hashtable.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostFrequentEvenElement" />
         <item itemvalue="Application.DetermineIfStringHalvesAlike" />
         <item itemvalue="Application.FirstAndLastPositionSortedArray" />
         <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.FindAllNumbersDisppearedArray" />
-        <item itemvalue="Application.IntersectionOfTwoArraysTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669744595139</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Determine if string halves are alike">
+      <created>1669904741209</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669904741209</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,7 +281,8 @@
     <MESSAGE value="Intersection of two arrays two" />
     <MESSAGE value="Find all numbers disappeared in array" />
     <MESSAGE value="Find first and last position of element in sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find first and last position of element in sorted array" />
+    <MESSAGE value="Determine if string halves are alike" />
+    <option name="LAST_COMMIT_MESSAGE" value="Determine if string halves are alike" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
