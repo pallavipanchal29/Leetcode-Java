@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/twodimentional/RichestCustomerWealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/TwoPointers/NumberOfGoodPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +38,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.array.easy.twodimentional.RichestCustomerWealth">
-    <configuration name="MaximumWordsFoundInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.MaximumWordsFoundInSentence" />
+  <component name="RunManager" selected="Application.NumberOfGoodPairs">
+    <configuration name="NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.TwoPointers.NumberOfGoodPairs" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="array.easy.TwoPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfGoodPairs" />
         <item itemvalue="Application.array.easy.twodimentional.RichestCustomerWealth" />
         <item itemvalue="Application.RobotReturnToOrigin" />
         <item itemvalue="Application.ReformatDate" />
         <item itemvalue="Application.NumberOfValidWordsSentence" />
-        <item itemvalue="Application.MaximumWordsFoundInSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670132023653</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Richest Customer wealth">
+      <created>1670132377051</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1670132377051</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -383,7 +390,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Intersection of two arrays refactored" />
     <MESSAGE value="Difference of two arrays" />
     <MESSAGE value="Intersection of multiple arrays" />
     <MESSAGE value="Find numbers with even number of digits" />
@@ -408,7 +414,8 @@
     <MESSAGE value="Number of valid words in sentence" />
     <MESSAGE value="Reformat date" />
     <MESSAGE value="Robot return to origin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Robot return to origin" />
+    <MESSAGE value="Richest Customer wealth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Richest Customer wealth" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
