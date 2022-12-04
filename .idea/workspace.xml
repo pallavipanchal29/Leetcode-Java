@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/math/NumberOfStepsReduceNumberZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/RunningSum1DArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NumberOfStepsReduceNumberZero">
+  <component name="RunManager" selected="Application.RunningSum1DArray">
     <configuration name="CountOperationsToObtainZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.math.CountOperationsToObtainZero" />
       <module name="Leetcode" />
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedSubstringPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.RepeatedSubstringPattern" />
+    <configuration name="RunningSum1DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.RunningSum1DArray" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunningSum1DArray" />
         <item itemvalue="Application.NumberOfStepsReduceNumberZero" />
         <item itemvalue="Application.CountOperationsToObtainZero" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.WaterBottles" />
-        <item itemvalue="Application.RepeatedSubstringPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670136997871</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Number of steps to reduce number to zero">
+      <created>1670137241416</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1670137241416</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -446,7 +453,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Most Frequent Even Element - refactor" />
     <MESSAGE value="Most Frequent Even Element - time complexity" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="Sort The People" />
@@ -471,7 +477,8 @@
     <MESSAGE value="Water bottles" />
     <MESSAGE value="FizzBuzz" />
     <MESSAGE value="Count operations to obtain Zero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Count operations to obtain Zero" />
+    <MESSAGE value="Number of steps to reduce number to zero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number of steps to reduce number to zero" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
