@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/MaxProductTwoElementsArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/easy/ValidParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/easy/RelativeSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/easy/hashtable/RelativeSortArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxProductTwoElementsArray">
+  <component name="RunManager" selected="Application.ValidParenthesis">
     <configuration name="MaxProductTwoElementsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.MaxProductTwoElementsArray" />
       <module name="Leetcode" />
@@ -53,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArrayByParityTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.SortArrayByParityTwo" />
+    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.easy.ValidParenthesis" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.hashtable.*" />
+          <option name="PATTERN" value="stack.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.MaxProductTwoElementsArray" />
         <item itemvalue="Application.array.easy.hashtable.RelativeSortArray" />
         <item itemvalue="Application.array.easy.MinimumValueToGetPositiveStepByStep" />
         <item itemvalue="Application.array.easy.hashtable.CheckIfNAndDoubleExists" />
-        <item itemvalue="Application.array.easy.SortArrayByParityTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Intersection of two arrays refactored">
-      <created>1667230785862</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1667230785862</updated>
     </task>
     <task id="LOCAL-00012" summary="Difference of two arrays">
       <created>1667236244773</created>
@@ -467,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670152216127</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Maximum product of two elements in array">
+      <created>1670153065034</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1670153065034</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -475,7 +474,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Reformat date" />
     <MESSAGE value="Robot return to origin" />
     <MESSAGE value="Richest Customer wealth" />
     <MESSAGE value="Number of good pairs" />
@@ -500,7 +498,8 @@
     <MESSAGE value="check if N and its double exists" />
     <MESSAGE value="Minimum value to get positive step by step sum" />
     <MESSAGE value="Relative sort array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relative sort array" />
+    <MESSAGE value="Maximum product of two elements in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maximum product of two elements in array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -597,11 +596,6 @@
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/RelativeSortArray.java</url>
           <line>31</line>
           <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/easy/MaxProductTwoElementsArray.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
