@@ -1,4 +1,4 @@
-package array.easy;
+package array.easy.hashtable;
 
 import java.util.*;
 

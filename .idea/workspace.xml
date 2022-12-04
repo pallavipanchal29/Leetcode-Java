@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/RelativeSortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/MaxProductTwoElementsArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/easy/RelativeSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/easy/hashtable/RelativeSortArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +39,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RelativeSortArray">
-    <configuration name="MinimumValueToGetPositiveStepByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.MinimumValueToGetPositiveStepByStep" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelativeSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.RelativeSortArray" />
+  <component name="RunManager" selected="Application.MaxProductTwoElementsArray">
+    <configuration name="MaxProductTwoElementsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.MaxProductTwoElementsArray" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.SortEvenOddIndicesIndependently" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.SortEvenOddIndicesIndependently" />
+    <configuration name="array.easy.MinimumValueToGetPositiveStepByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.MinimumValueToGetPositiveStepByStep" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="array.easy.hashtable.RelativeSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.RelativeSortArray" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RelativeSortArray" />
-        <item itemvalue="Application.MinimumValueToGetPositiveStepByStep" />
+        <item itemvalue="Application.MaxProductTwoElementsArray" />
+        <item itemvalue="Application.array.easy.hashtable.RelativeSortArray" />
+        <item itemvalue="Application.array.easy.MinimumValueToGetPositiveStepByStep" />
         <item itemvalue="Application.array.easy.hashtable.CheckIfNAndDoubleExists" />
         <item itemvalue="Application.array.easy.SortArrayByParityTwo" />
-        <item itemvalue="Application.array.easy.SortEvenOddIndicesIndependently" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Intersection of two arrays">
-      <created>1667230754227</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1667230754227</updated>
     </task>
     <task id="LOCAL-00011" summary="Intersection of two arrays refactored">
       <created>1667230785862</created>
@@ -466,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670151347920</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Relative sort array">
+      <created>1670152216127</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1670152216127</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -474,7 +475,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Number of valid words in sentence" />
     <MESSAGE value="Reformat date" />
     <MESSAGE value="Robot return to origin" />
     <MESSAGE value="Richest Customer wealth" />
@@ -499,7 +499,8 @@
     <MESSAGE value="Sort array by parity two" />
     <MESSAGE value="check if N and its double exists" />
     <MESSAGE value="Minimum value to get positive step by step sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minimum value to get positive step by step sum" />
+    <MESSAGE value="Relative sort array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relative sort array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -593,9 +594,14 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/easy/RelativeSortArray.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/src/array/easy/hashtable/RelativeSortArray.java</url>
+          <line>31</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/MaxProductTwoElementsArray.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
