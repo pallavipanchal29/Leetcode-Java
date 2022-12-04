@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/RepeatedSubstringPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/math/WaterBottles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RepeatedSubstringPattern">
+  <component name="RunManager" selected="Application.WaterBottles">
     <configuration name="FinalValueVariablesAfterOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.FinalValueVariablesAfterOperations" />
       <module name="Leetcode" />
@@ -78,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaterBottles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.math.WaterBottles" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="array.easy.hashtable.NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.NumberOfGoodPairs" />
       <module name="Leetcode" />
@@ -91,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.twodimentional.RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.twodimentional.RichestCustomerWealth" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.twodimentional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaterBottles" />
         <item itemvalue="Application.RepeatedSubstringPattern" />
         <item itemvalue="Application.FinalValueVariablesAfterOperations" />
         <item itemvalue="Application.ShuffleTheArray" />
         <item itemvalue="Application.array.easy.hashtable.NumberOfGoodPairs" />
-        <item itemvalue="Application.array.easy.twodimentional.RichestCustomerWealth" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670135096698</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Repeated Substring pattern">
+      <created>1670135294106</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1670135294106</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -418,7 +425,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Find all numbers disappeared in array" />
     <MESSAGE value="Find first and last position of element in sorted array" />
     <MESSAGE value="Determine if string halves are alike" />
     <MESSAGE value="Most Frequent Even Element" />
@@ -443,7 +449,8 @@
     <MESSAGE value="Number of good pairs- refactor" />
     <MESSAGE value="Shuffle the array with additional methods" />
     <MESSAGE value="Final value of variable after operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final value of variable after operations" />
+    <MESSAGE value="Repeated Substring pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repeated Substring pattern" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -503,8 +510,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/easy/RepeatedSubstringPattern.java</url>
-          <line>10</line>
+          <line>8</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/math/WaterBottles.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
