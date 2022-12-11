@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/TwoPointers/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/SearchInsertPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveElement">
+  <component name="RunManager" selected="Application.SearchInsertPosition">
     <configuration name="RemoveDuplicatesSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.TwoPointers.RemoveDuplicatesSortedArray" />
       <module name="Leetcode" />
@@ -57,6 +58,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.easy.TwoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.SearchInsertPosition" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.easy.ValidParenthesis" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.RemoveDuplicatesSortedArray" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.ValidParenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Find first and last position of element in sorted array">
-      <created>1669744595139</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1669744595139</updated>
     </task>
     <task id="LOCAL-00019" summary="Determine if string halves are alike">
       <created>1669904741209</created>
@@ -465,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670763800783</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Remove element">
+      <created>1670763971076</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1670763971076</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -473,7 +474,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Repeated Substring pattern" />
     <MESSAGE value="Water bottles" />
     <MESSAGE value="FizzBuzz" />
     <MESSAGE value="Count operations to obtain Zero" />
@@ -498,7 +498,8 @@
     <MESSAGE value="String compression" />
     <MESSAGE value="Two Sum" />
     <MESSAGE value="Remove duplicates from sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove duplicates from sorted array" />
+    <MESSAGE value="Remove element" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove element" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
