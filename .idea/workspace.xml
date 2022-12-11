@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/queue/easy/ImplementQueueUsingStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/easy/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/medium/StringCompression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Find numbers with even number of digits">
-      <created>1667236978500</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1667236978500</updated>
     </task>
     <task id="LOCAL-00015" summary="Intersection of two arrays two">
       <created>1667237620148</created>
@@ -466,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670159432635</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Implement Queue using stacks">
+      <created>1670160118162</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1670160118162</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -474,7 +475,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Number of good pairs" />
     <MESSAGE value="Number of good pairs- refactor" />
     <MESSAGE value="Shuffle the array with additional methods" />
     <MESSAGE value="Final value of variable after operations" />
@@ -499,7 +499,8 @@
     <MESSAGE value="Maximum product of two elements in array" />
     <MESSAGE value="Valid Parenthesis" />
     <MESSAGE value="Implement stack using queues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement stack using queues" />
+    <MESSAGE value="Implement Queue using stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Queue using stacks" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
