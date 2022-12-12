@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/IntersectionOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/IntersectionOfTwoArraysTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +38,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IntersectionOfTwoArrays">
+  <component name="RunManager" selected="Application.IntersectionOfTwoArraysTwo">
     <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.IntersectionOfTwoArrays" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntersectionOfTwoArraysTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.IntersectionOfTwoArraysTwo" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -78,19 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.SearchInsertPosition" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.SingleNumber" />
       <module name="Leetcode" />
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoArraysTwo" />
         <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.PascalsTraingle" />
         <item itemvalue="Application.PlusOne" />
-        <item itemvalue="Application.SearchInsertPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Sort The People">
-      <created>1670049564558</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1670049564558</updated>
     </task>
     <task id="LOCAL-00025" summary="sort array by increasing frequency">
       <created>1670050595224</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670819393773</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Intersection of two arrays">
+      <created>1670819915797</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1670819915797</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -474,7 +474,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Concatenation of array" />
     <MESSAGE value="Build array from permutation" />
     <MESSAGE value="Height checker" />
     <MESSAGE value="Keep multiplying found values by 2" />
@@ -499,7 +498,8 @@
     <MESSAGE value="Merge Sorted array" />
     <MESSAGE value="Pascal's triangle" />
     <MESSAGE value="Single Number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Single Number" />
+    <MESSAGE value="Intersection of two arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intersection of two arrays" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
