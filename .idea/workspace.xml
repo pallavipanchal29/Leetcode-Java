@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/PascalsTraingle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/SingleNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PascalsTraingle">
+  <component name="RunManager" selected="Application.SingleNumber">
     <configuration name="PascalsTraingle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.PascalsTraingle" />
       <module name="Leetcode" />
@@ -58,19 +57,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicatesSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.TwoPointers.RemoveDuplicatesSortedArray" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.TwoPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,13 +90,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.SingleNumber" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.PascalsTraingle" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.RemoveDuplicatesSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Most Frequent Even Element - time complexity">
-      <created>1670048697538</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1670048697538</updated>
     </task>
     <task id="LOCAL-00023" summary="Refactor">
       <created>1670048837336</created>
@@ -466,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670818230518</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Pascal's triangle">
+      <created>1670819090186</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1670819090186</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -474,7 +473,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Number of steps to reduce number to zero" />
     <MESSAGE value="Running sum of 1D array" />
     <MESSAGE value="Concatenation of array" />
     <MESSAGE value="Build array from permutation" />
@@ -499,7 +497,8 @@
     <MESSAGE value="Search insert position" />
     <MESSAGE value="Plus one" />
     <MESSAGE value="Merge Sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge Sorted array" />
+    <MESSAGE value="Pascal's triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pascal's triangle" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -604,7 +603,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/PascalsTraingle.java</url>
-          <line>17</line>
+          <line>14</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
