@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/FindallNumbersDisappearedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="Find numbers disappeared in array">
+      <change afterPath="$PROJECT_DIR$/src/array/easy/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/easy/FindallNumbersDisappearedArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Apply operations to array">
-      <created>1670058761958</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1670058761958</updated>
     </task>
     <task id="LOCAL-00032" summary="Kids with greatest number of candies">
       <created>1670066137379</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670851634391</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Find numbers disappeared in array">
+      <created>1670852451672</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1670852451672</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -474,7 +474,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Sort even and odd indices independently" />
     <MESSAGE value="Sort array by parity two" />
     <MESSAGE value="check if N and its double exists" />
     <MESSAGE value="Minimum value to get positive step by step sum" />
@@ -499,7 +498,8 @@
     <MESSAGE value="Find difference of two arrays" />
     <MESSAGE value="Third maximum number" />
     <MESSAGE value="Add Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Strings" />
+    <MESSAGE value="Find numbers disappeared in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find numbers disappeared in array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
