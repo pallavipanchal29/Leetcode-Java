@@ -39,12 +39,25 @@
   }
 }</component>
   <component name="RunManager" selected="Application.string.easy.FindCommonCharacters">
-    <configuration name="array.easy.IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FindCommonCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.FindCommonCharacters" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.IntersectionOfTwoArrays" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="string.easy.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.IntersectionOfTwoArraysTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="IntersectionOfTwoArraysTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.IntersectionOfTwoArraysTwo" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="string.easy.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.PascalsTraingle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PascalsTraingle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.PascalsTraingle" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="string.easy.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,25 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.SingleNumber" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="string.easy.FindCommonCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.FindCommonCharacters" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="string.easy.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
