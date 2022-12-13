@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/MaxConsecutiveOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/ConsecutiveCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxConsecutiveOnes">
+  <component name="RunManager" selected="Application.ConsecutiveCharacters">
     <configuration name="AssignCookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.easy.AssignCookies" />
       <module name="Leetcode" />
@@ -52,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainsDuplicateTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.ContainsDuplicateTwo" />
+    <configuration name="ConsecutiveCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.ConsecutiveCharacters" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeArrayZeroSubtractingEqualAmounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.MakeArrayZeroSubtractingEqualAmounts" />
+    <configuration name="ContainsDuplicateTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.ContainsDuplicateTwo" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsecutiveCharacters" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.AssignCookies" />
         <item itemvalue="Application.SummaryRanges" />
         <item itemvalue="Application.ContainsDuplicateTwo" />
-        <item itemvalue="Application.MakeArrayZeroSubtractingEqualAmounts" />
       </list>
     </recent_temporary>
   </component>
@@ -122,20 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Richest Customer wealth">
-      <created>1670132377051</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1670132377051</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Number of good pairs">
-      <created>1670132890726</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1670132890726</updated>
     </task>
     <task id="LOCAL-00039" summary="Number of good pairs- refactor">
       <created>1670132934225</created>
@@ -466,7 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670943907358</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Max Consecutive characters">
+      <created>1670944207385</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1670944207385</updated>
+    </task>
+    <task id="LOCAL-00087" summary="refactor math package">
+      <created>1670944256751</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1670944256751</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -474,8 +474,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Valid Parenthesis" />
-    <MESSAGE value="Implement stack using queues" />
     <MESSAGE value="Implement Queue using stacks" />
     <MESSAGE value="String compression" />
     <MESSAGE value="Two Sum" />
@@ -499,7 +497,9 @@
     <MESSAGE value="Contains duplicate with diff k" />
     <MESSAGE value="Summary ranges" />
     <MESSAGE value="Assign cookies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assign cookies" />
+    <MESSAGE value="Max Consecutive characters" />
+    <MESSAGE value="refactor math package" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor math package" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -543,7 +543,7 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/math/BinaryPrefixDivisibleBy5.java</url>
+          <url>file://$PROJECT_DIR$/src/array/easy/math/BinaryPrefixDivisibleBy5.java</url>
           <line>22</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -563,12 +563,12 @@
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/math/WaterBottles.java</url>
+          <url>file://$PROJECT_DIR$/src/array/easy/math/WaterBottles.java</url>
           <line>12</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/math/CountOperationsToObtainZero.java</url>
+          <url>file://$PROJECT_DIR$/src/array/easy/math/CountOperationsToObtainZero.java</url>
           <line>10</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
@@ -636,6 +636,11 @@
           <url>file://$PROJECT_DIR$/src/array/easy/SummaryRanges.java</url>
           <line>16</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/ConsecutiveCharacters.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
