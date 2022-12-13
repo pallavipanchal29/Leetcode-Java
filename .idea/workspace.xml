@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/RelativeRanks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/easy/ArrayPartition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RelativeRanks">
+  <component name="RunManager" selected="Application.array.easy.RelativeRanks">
     <configuration name="ConsecutiveCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.ConsecutiveCharacters" />
       <module name="Leetcode" />
@@ -52,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="array.easy.MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.MaxConsecutiveOnes" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="greedy.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="array.easy.NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.NextGreaterElement" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="greedy.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeRanks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="array.easy.RelativeRanks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.RelativeRanks" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="greedy.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeemoAttacking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="array.easy.TeemoAttacking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.TeemoAttacking" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="greedy.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RelativeRanks" />
-        <item itemvalue="Application.NextGreaterElement" />
-        <item itemvalue="Application.TeemoAttacking" />
+        <item itemvalue="Application.array.easy.RelativeRanks" />
+        <item itemvalue="Application.array.easy.NextGreaterElement" />
+        <item itemvalue="Application.array.easy.TeemoAttacking" />
         <item itemvalue="Application.ConsecutiveCharacters" />
-        <item itemvalue="Application.MaxConsecutiveOnes" />
+        <item itemvalue="Application.array.easy.MaxConsecutiveOnes" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Repeated Substring pattern">
-      <created>1670135294106</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1670135294106</updated>
     </task>
     <task id="LOCAL-00043" summary="Water bottles">
       <created>1670136189361</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670945913928</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Relative ranks">
+      <created>1670947762936</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1670947762936</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -474,7 +474,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Remove duplicates from sorted array" />
     <MESSAGE value="Remove element" />
     <MESSAGE value="Search insert position" />
     <MESSAGE value="Plus one" />
@@ -499,7 +498,8 @@
     <MESSAGE value="Consecutive Characters" />
     <MESSAGE value="Teemo Attacking" />
     <MESSAGE value="Next greater element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Next greater element" />
+    <MESSAGE value="Relative ranks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relative ranks" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
