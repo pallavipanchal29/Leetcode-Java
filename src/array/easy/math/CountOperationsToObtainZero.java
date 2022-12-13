@@ -1,4 +1,4 @@
-package array.math;
+package array.easy.math;
 
 public class CountOperationsToObtainZero {
     public static void main(String[] args) {
