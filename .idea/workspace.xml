@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/DesignHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +39,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.DesignHashSet">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.BinarySearch" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.DesignHashSet" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,19 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.NextGreaterElement" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedy.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="array.easy.RelativeRanks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.RelativeRanks" />
       <module name="Leetcode" />
@@ -106,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignHashSet" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.MinCostOfBuyingcandiesWithDiscount" />
         <item itemvalue="Application.MinDiffBetweenHighestLowestKScores" />
         <item itemvalue="Application.array.easy.RelativeRanks" />
-        <item itemvalue="Application.array.easy.NextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Number of steps to reduce number to zero">
-      <created>1670137241416</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1670137241416</updated>
     </task>
     <task id="LOCAL-00047" summary="Running sum of 1D array">
       <created>1670137539851</created>
@@ -466,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670951143766</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Binary search">
+      <created>1670951542237</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1670951542237</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -474,7 +475,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Merge Sorted array" />
     <MESSAGE value="Pascal's triangle" />
     <MESSAGE value="Single Number" />
     <MESSAGE value="Intersection of two arrays" />
@@ -499,7 +499,8 @@
     <MESSAGE value="Array partition" />
     <MESSAGE value="Minimum difference highest and lowest of k values" />
     <MESSAGE value="Minimum cost of buying candies with discount" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minimum cost of buying candies with discount" />
+    <MESSAGE value="Binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary search" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -666,6 +667,16 @@
           <url>file://$PROJECT_DIR$/src/greedy/easy/MinCostOfBuyingcandiesWithDiscount.java</url>
           <line>13</line>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/DesignHashSet.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/DesignHashSet.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
