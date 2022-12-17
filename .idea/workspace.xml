@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/FirstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/GuessNumberHigherOrLower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +43,22 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstBadVersion">
+  <component name="RunManager" selected="Application.GuessNumberHigherOrLower">
     <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.FirstBadVersion" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessNumberHigherOrLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.GuessNumberHigherOrLower" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -63,19 +76,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="linkedlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.ValidAnagram" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessNumberHigherOrLower" />
         <item itemvalue="Application.FirstBadVersion" />
         <item itemvalue="Application.MergeTwoSortedLists" />
         <item itemvalue="Application.ValidPalindromeTwo" />
         <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.ValidAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Sort even and odd indices independently">
-      <created>1670149543201</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1670149543201</updated>
     </task>
     <task id="LOCAL-00056" summary="Sort array by parity two">
       <created>1670150109303</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671257778263</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="First bad version">
+      <created>1671258868553</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1671258868553</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Add Strings" />
     <MESSAGE value="Find numbers disappeared in array" />
     <MESSAGE value="Contains Duplicate" />
     <MESSAGE value="Make array zero by subtracting equal amounts" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Valid Palindrome two" />
     <MESSAGE value="Merge Two sorted linked lists" />
     <MESSAGE value="Find if linked list contains cycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find if linked list contains cycle" />
+    <MESSAGE value="First bad version" />
+    <option name="LAST_COMMIT_MESSAGE" value="First bad version" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
