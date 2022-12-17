@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/easy/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/easy/LinkedListCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/DesignHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/easy/DesignHashSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Largest number after digits swaps by parity">
-      <created>1670145964502</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1670145964502</updated>
     </task>
     <task id="LOCAL-00054" summary="Sort array by parity">
       <created>1670146155461</created>
@@ -473,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671254185907</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Merge Two sorted linked lists">
+      <created>1671256512995</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1671256512995</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -481,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Find difference of two arrays" />
     <MESSAGE value="Third maximum number" />
     <MESSAGE value="Add Strings" />
     <MESSAGE value="Find numbers disappeared in array" />
@@ -506,7 +503,8 @@
     <MESSAGE value="Valid Palindrome" />
     <MESSAGE value="Valid Palindrome- error fixed" />
     <MESSAGE value="Valid Palindrome two" />
-    <option name="LAST_COMMIT_MESSAGE" value="Valid Palindrome two" />
+    <MESSAGE value="Merge Two sorted linked lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge Two sorted linked lists" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
