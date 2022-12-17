@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/DesignHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/FindMiddleIndexArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/FindPivotIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DesignHashSet">
+  <component name="RunManager" selected="Application.FindMiddleIndexArray">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.BinarySearch" />
       <module name="Leetcode" />
@@ -66,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCostOfBuyingcandiesWithDiscount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.easy.MinCostOfBuyingcandiesWithDiscount" />
+    <configuration name="FindMiddleIndexArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.FindMiddleIndexArray" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.easy.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinDiffBetweenHighestLowestKScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.slidingwindow.MinDiffBetweenHighestLowestKScores" />
+    <configuration name="FindPivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.FindPivotIndex" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.slidingwindow.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.RelativeRanks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.RelativeRanks" />
+    <configuration name="OneBitTwoBitChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.OneBitTwoBitChars" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.easy.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMiddleIndexArray" />
+        <item itemvalue="Application.FindPivotIndex" />
+        <item itemvalue="Application.OneBitTwoBitChars" />
         <item itemvalue="Application.DesignHashSet" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.MinCostOfBuyingcandiesWithDiscount" />
-        <item itemvalue="Application.MinDiffBetweenHighestLowestKScores" />
-        <item itemvalue="Application.array.easy.RelativeRanks" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Running sum of 1D array">
-      <created>1670137539851</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1670137539851</updated>
     </task>
     <task id="LOCAL-00048" summary="Concatenation of array">
       <created>1670137979712</created>
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670951542237</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Design hashset">
+      <created>1670954198908</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1670954198908</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -475,7 +475,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Pascal's triangle" />
     <MESSAGE value="Single Number" />
     <MESSAGE value="Intersection of two arrays" />
     <MESSAGE value="Intersection of two arrays Two" />
@@ -500,7 +499,8 @@
     <MESSAGE value="Minimum difference highest and lowest of k values" />
     <MESSAGE value="Minimum cost of buying candies with discount" />
     <MESSAGE value="Binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary search" />
+    <MESSAGE value="Design hashset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design hashset" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -670,12 +670,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedlist/DesignHashSet.java</url>
-          <line>10</line>
+          <line>13</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedlist/DesignHashSet.java</url>
-          <line>34</line>
+          <line>29</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
