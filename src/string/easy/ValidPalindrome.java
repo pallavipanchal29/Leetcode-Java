@@ -6,7 +6,7 @@ public class ValidPalindrome {
     }
 
     public static boolean isPalindrome(String s) {
-        s = s.replaceAll("[^a-zA-Z]", "").toLowerCase();
+        s = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
         int i = 0;
         int j = s.length() - 1;
 

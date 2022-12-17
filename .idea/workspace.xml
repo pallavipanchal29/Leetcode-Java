@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/easy/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/ValidPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Height checker">
-      <created>1670138630352</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1670138630352</updated>
     </task>
     <task id="LOCAL-00051" summary="Keep multiplying found values by 2">
       <created>1670139406435</created>
@@ -470,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671251123712</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Valid Palindrome">
+      <created>1671251390015</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1671251390015</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -478,7 +478,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Intersection of two arrays Two" />
     <MESSAGE value="Find Common Characters" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="Find difference of two arrays" />
@@ -503,7 +502,8 @@
     <MESSAGE value="Design hashset" />
     <MESSAGE value="Best Time to buy and sell stock" />
     <MESSAGE value="Valid Anagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Valid Anagram" />
+    <MESSAGE value="Valid Palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Valid Palindrome" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
