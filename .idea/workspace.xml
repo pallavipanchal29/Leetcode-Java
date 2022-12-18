@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/easy/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Relative sort array">
-      <created>1670152216127</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1670152216127</updated>
     </task>
     <task id="LOCAL-00060" summary="Maximum product of two elements in array">
       <created>1670153065034</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671268298156</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="majority element">
+      <created>1671333890893</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1671333890893</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Contains duplicate with diff k" />
     <MESSAGE value="Summary ranges" />
     <MESSAGE value="Assign cookies" />
     <MESSAGE value="Max Consecutive characters" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Guess Number higher or lower" />
     <MESSAGE value="Ransom note" />
     <MESSAGE value="Longest Palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Longest Palindrome" />
+    <MESSAGE value="majority element" />
+    <option name="LAST_COMMIT_MESSAGE" value="majority element" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -694,17 +694,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/MajorityElement.java</url>
-          <line>22</line>
+          <line>20</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/MajorityElement.java</url>
-          <line>39</line>
+          <line>35</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/MajorityElement.java</url>
-          <line>35</line>
+          <line>33</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
