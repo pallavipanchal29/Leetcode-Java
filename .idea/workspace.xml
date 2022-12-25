@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack/easy/BackspaceStringCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/LargestPositiveIntegerExistsWithNegative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/Java/DSA/Leetcode-Overall/Leetcode/src/array/easy/slidingwindow",
+    "last_opened_file_path": "E:/Java/DSA/Leetcode-Overall/Leetcode",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Implement stack using queues">
-      <created>1670159432635</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1670159432635</updated>
     </task>
     <task id="LOCAL-00063" summary="Implement Queue using stacks">
       <created>1670160118162</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671334796944</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Backspace string compare">
+      <created>1671335531135</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1671335531135</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Max Consecutive characters" />
     <MESSAGE value="refactor math package" />
     <MESSAGE value="Consecutive Characters" />
     <MESSAGE value="Teemo Attacking" />
@@ -504,7 +503,8 @@
     <MESSAGE value="majority element" />
     <MESSAGE value="Reverse linked list" />
     <MESSAGE value="Middle of LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Middle of LL" />
+    <MESSAGE value="Backspace string compare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backspace string compare" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -709,7 +709,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/stack/easy/BackspaceStringCompare.java</url>
-          <line>35</line>
+          <line>27</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
