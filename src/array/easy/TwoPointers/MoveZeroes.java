@@ -1,4 +1,4 @@
-package array.easy;
+package array.easy.TwoPointers;
 
 public class MoveZeroes {
     public static void main(String[] args) {
