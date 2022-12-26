@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/IncreasingDecreasingString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/KeyboardRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/easy/KeyboardRow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLastWord">
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.LengthOfLastWord" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.string.easy.hashtable.IncreasingDecreasingString">
     <configuration name="array.easy.KeyboardRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.KeyboardRow" />
       <module name="Leetcode" />
@@ -84,19 +70,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.TwoPointers.MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.TwoPointers.MoveZeroes" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.TwoPointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="array.easy.slidingwindow.MaxAverageSubarrayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.slidingwindow.MaxAverageSubarrayOne" />
       <module name="Leetcode" />
@@ -110,13 +83,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="string.easy.LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.LengthOfLastWord" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string.easy.hashtable.IncreasingDecreasingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.IncreasingDecreasingString" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.string.easy.hashtable.IncreasingDecreasingString" />
+        <item itemvalue="Application.string.easy.LengthOfLastWord" />
         <item itemvalue="Application.array.easy.KeyboardRow" />
         <item itemvalue="Application.array.easy.slidingwindow.MaxAverageSubarrayOne" />
         <item itemvalue="Application.array.easy.MaxProductOfThreeNumbers" />
-        <item itemvalue="Application.array.easy.TwoPointers.MoveZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Search insert position">
-      <created>1670764442230</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1670764442230</updated>
     </task>
     <task id="LOCAL-00069" summary="Plus one">
       <created>1670764895457</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672029581840</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Length of last word">
+      <created>1672029941136</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1672029941136</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Array partition" />
     <MESSAGE value="Minimum difference highest and lowest of k values" />
     <MESSAGE value="Minimum cost of buying candies with discount" />
     <MESSAGE value="Binary search" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Max product of three numbers" />
     <MESSAGE value="MAx average subarray one" />
     <MESSAGE value="Keyboard row" />
-    <option name="LAST_COMMIT_MESSAGE" value="Keyboard row" />
+    <MESSAGE value="Length of last word" />
+    <option name="LAST_COMMIT_MESSAGE" value="Length of last word" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
