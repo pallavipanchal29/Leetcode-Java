@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/MinIndexSumOfTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/UniqueMorseCodeWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +43,22 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinIndexSumOfTwoLists">
+  <component name="RunManager" selected="Application.UniqueMorseCodeWords">
     <configuration name="MinIndexSumOfTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.MinIndexSumOfTwoLists" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueMorseCodeWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.UniqueMorseCodeWords" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -63,19 +76,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="array.easy.slidingwindow.MaxAverageSubarrayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.slidingwindow.MaxAverageSubarrayOne" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueMorseCodeWords" />
         <item itemvalue="Application.MinIndexSumOfTwoLists" />
         <item itemvalue="Application.string.easy.hashtable.IncreasingDecreasingString" />
         <item itemvalue="Application.string.easy.LengthOfLastWord" />
         <item itemvalue="Application.array.easy.KeyboardRow" />
-        <item itemvalue="Application.array.easy.slidingwindow.MaxAverageSubarrayOne" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Merge Sorted array">
-      <created>1670818230518</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1670818230518</updated>
     </task>
     <task id="LOCAL-00071" summary="Pascal's triangle">
       <created>1670819090186</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672030909314</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Min Index sum of two lists">
+      <created>1672032670883</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1672032670883</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Minimum cost of buying candies with discount" />
     <MESSAGE value="Binary search" />
     <MESSAGE value="Design hashset" />
     <MESSAGE value="Best Time to buy and sell stock" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Keyboard row" />
     <MESSAGE value="Length of last word" />
     <MESSAGE value="Increasing decreasing String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Increasing decreasing String" />
+    <MESSAGE value="Min Index sum of two lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Min Index sum of two lists" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -719,7 +719,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/easy/hashtable/MinIndexSumOfTwoLists.java</url>
-          <line>27</line>
+          <line>24</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
       </breakpoints>
