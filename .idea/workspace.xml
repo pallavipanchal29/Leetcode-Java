@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/KeyboardRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/LengthOfLastWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/KeyboardRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/easy/KeyboardRow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +44,13 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KeyboardRow">
-    <configuration name="BackspaceStringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.easy.BackspaceStringCompare" />
+  <component name="RunManager" selected="Application.LengthOfLastWord">
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.LengthOfLastWord" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.easy.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyboardRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.KeyboardRow" />
+    <configuration name="array.easy.KeyboardRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.KeyboardRow" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KeyboardRow" />
+        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.array.easy.KeyboardRow" />
         <item itemvalue="Application.array.easy.slidingwindow.MaxAverageSubarrayOne" />
         <item itemvalue="Application.array.easy.MaxProductOfThreeNumbers" />
         <item itemvalue="Application.array.easy.TwoPointers.MoveZeroes" />
-        <item itemvalue="Application.BackspaceStringCompare" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +128,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Remove element">
-      <created>1670763971076</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1670763971076</updated>
     </task>
     <task id="LOCAL-00068" summary="Search insert position">
       <created>1670764442230</created>
@@ -471,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672028879770</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Keyboard row">
+      <created>1672029581840</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1672029581840</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +480,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Relative ranks" />
     <MESSAGE value="Array partition" />
     <MESSAGE value="Minimum difference highest and lowest of k values" />
     <MESSAGE value="Minimum cost of buying candies with discount" />
@@ -504,7 +504,8 @@
     <MESSAGE value="Move zeroes" />
     <MESSAGE value="Max product of three numbers" />
     <MESSAGE value="MAx average subarray one" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAx average subarray one" />
+    <MESSAGE value="Keyboard row" />
+    <option name="LAST_COMMIT_MESSAGE" value="Keyboard row" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -713,8 +714,8 @@
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/KeyboardRow.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/src/array/easy/KeyboardRow.java</url>
+          <line>19</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
