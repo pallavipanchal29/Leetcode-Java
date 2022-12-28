@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/ReverseVowelsOfString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/ToLowerCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +42,13 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseVowelsOfString">
-    <configuration name="MinIndexSumOfTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.MinIndexSumOfTwoLists" />
+  <component name="RunManager" selected="Application.ToLowerCase">
+    <configuration name="ReverseVowelsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.ReverseVowelsOfString" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseVowelsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.ReverseVowelsOfString" />
+    <configuration name="ToLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.ToLowerCase" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ToLowerCase" />
         <item itemvalue="Application.ReverseVowelsOfString" />
         <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.string.easy.NumberOfLinesWriteString" />
         <item itemvalue="Application.UniqueMorseCodeWords" />
-        <item itemvalue="Application.MinIndexSumOfTwoLists" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Find Common Characters">
-      <created>1670821151073</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1670821151073</updated>
     </task>
     <task id="LOCAL-00076" summary="Refactor">
       <created>1670821315486</created>
@@ -471,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672205109186</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Reverse vowels of string">
+      <created>1672205720363</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1672205720363</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +478,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Valid Palindrome" />
     <MESSAGE value="Valid Palindrome- error fixed" />
     <MESSAGE value="Valid Palindrome two" />
     <MESSAGE value="Merge Two sorted linked lists" />
@@ -504,7 +502,8 @@
     <MESSAGE value="Isomorphic strings" />
     <MESSAGE value="Word Pattern" />
     <MESSAGE value="Reverse string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverse string" />
+    <MESSAGE value="Reverse vowels of string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse vowels of string" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
