@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/CapitalizeTheTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/ShortestCompletingWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CapitalizeTheTitle">
+  <component name="RunManager" selected="Application.ShortestCompletingWord">
     <configuration name="CapitalizeTheTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.CapitalizeTheTitle" />
       <module name="Leetcode" />
@@ -59,6 +59,19 @@
     </configuration>
     <configuration name="ReverseVowelsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.ReverseVowelsOfString" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestCompletingWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.ShortestCompletingWord" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -96,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.NumberOfLinesWriteString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.NumberOfLinesWriteString" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestCompletingWord" />
         <item itemvalue="Application.CapitalizeTheTitle" />
         <item itemvalue="Application.ToLowerCase" />
         <item itemvalue="Application.ReverseVowelsOfString" />
         <item itemvalue="Application.WordPattern" />
-        <item itemvalue="Application.string.easy.NumberOfLinesWriteString" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Find difference of two arrays">
-      <created>1670822267811</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1670822267811</updated>
     </task>
     <task id="LOCAL-00078" summary="Third maximum number">
       <created>1670823776120</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672205847168</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Capitalize the title">
+      <created>1672211818212</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1672211818212</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Valid Palindrome two" />
     <MESSAGE value="Merge Two sorted linked lists" />
     <MESSAGE value="Find if linked list contains cycle" />
     <MESSAGE value="First bad version" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Reverse string" />
     <MESSAGE value="Reverse vowels of string" />
     <MESSAGE value="To Lower case" />
-    <option name="LAST_COMMIT_MESSAGE" value="To Lower case" />
+    <MESSAGE value="Capitalize the title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Capitalize the title" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -726,6 +726,11 @@
           <url>file://$PROJECT_DIR$/src/string/easy/NumberOfLinesWriteString.java</url>
           <line>23</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/ShortestCompletingWord.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
