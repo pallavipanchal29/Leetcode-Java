@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/WordPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/easy/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/hashtable/IsomorphicStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/ReverseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Intersection of two arrays">
-      <created>1670819915797</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1670819915797</updated>
     </task>
     <task id="LOCAL-00074" summary="Intersection of two arrays Two">
       <created>1670820281175</created>
@@ -472,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672204031258</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Word Pattern">
+      <created>1672204964265</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1672204964265</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +478,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Best Time to buy and sell stock" />
     <MESSAGE value="Valid Anagram" />
     <MESSAGE value="Valid Palindrome" />
     <MESSAGE value="Valid Palindrome- error fixed" />
@@ -505,7 +502,8 @@
     <MESSAGE value="Min Index sum of two lists" />
     <MESSAGE value="Unique morse code words" />
     <MESSAGE value="Isomorphic strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Isomorphic strings" />
+    <MESSAGE value="Word Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Word Pattern" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
