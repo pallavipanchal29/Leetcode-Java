@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/DestinationCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/easy/RemoveAllAdjacentDuplicatesString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DestinationCity">
+  <component name="RunManager" selected="Application.RemoveAllAdjacentDuplicatesString">
     <configuration name="DestinationCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.DestinationCity" />
       <module name="Leetcode" />
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.CapitalizeTheTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.CapitalizeTheTitle" />
+    <configuration name="RemoveAllAdjacentDuplicatesString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.easy.RemoveAllAdjacentDuplicatesString" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="PATTERN" value="stack.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveAllAdjacentDuplicatesString" />
         <item itemvalue="Application.DestinationCity" />
         <item itemvalue="Application.FirstLetterToAppearTwice" />
         <item itemvalue="Application.FirstUniqueCharacterString" />
         <item itemvalue="Application.string.easy.hashtable.ShortestCompletingWord" />
-        <item itemvalue="Application.string.easy.CapitalizeTheTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00081" summary="Contains Duplicate">
-      <created>1670852648795</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1670852648795</updated>
     </task>
     <task id="LOCAL-00082" summary="Make array zero by subtracting equal amounts">
       <created>1670853457677</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672291877435</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Destination City">
+      <created>1672292444285</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1672292444285</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Guess Number higher or lower" />
     <MESSAGE value="Ransom note" />
     <MESSAGE value="Longest Palindrome" />
     <MESSAGE value="majority element" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Shortest Completing Word" />
     <MESSAGE value="First unique character in string" />
     <MESSAGE value="first letter to appear twice" />
-    <option name="LAST_COMMIT_MESSAGE" value="first letter to appear twice" />
+    <MESSAGE value="Destination City" />
+    <option name="LAST_COMMIT_MESSAGE" value="Destination City" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -741,6 +741,11 @@
           <url>file://$PROJECT_DIR$/src/string/easy/hashtable/ShortestCompletingWord.java</url>
           <line>28</line>
           <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/easy/RemoveAllAdjacentDuplicatesString.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
