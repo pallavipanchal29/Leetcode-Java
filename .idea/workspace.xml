@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack/easy/RemoveAllAdjacentDuplicatesString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/FindTheDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveAllAdjacentDuplicatesString">
+  <component name="RunManager" selected="Application.string.easy.hashtable.FindTheDifference">
     <configuration name="DestinationCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.DestinationCity" />
       <module name="Leetcode" />
@@ -96,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.hashtable.ShortestCompletingWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.ShortestCompletingWord" />
+    <configuration name="string.easy.hashtable.FindTheDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.FindTheDifference" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.string.easy.hashtable.FindTheDifference" />
         <item itemvalue="Application.RemoveAllAdjacentDuplicatesString" />
         <item itemvalue="Application.DestinationCity" />
         <item itemvalue="Application.FirstLetterToAppearTwice" />
         <item itemvalue="Application.FirstUniqueCharacterString" />
-        <item itemvalue="Application.string.easy.hashtable.ShortestCompletingWord" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00082" summary="Make array zero by subtracting equal amounts">
-      <created>1670853457677</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1670853457677</updated>
     </task>
     <task id="LOCAL-00083" summary="Contains duplicate with diff k">
       <created>1670903126479</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672292444285</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Remove All Adjacent duplicates in string">
+      <created>1672292846238</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1672292846238</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Ransom note" />
     <MESSAGE value="Longest Palindrome" />
     <MESSAGE value="majority element" />
     <MESSAGE value="Reverse linked list" />
@@ -504,7 +503,8 @@
     <MESSAGE value="First unique character in string" />
     <MESSAGE value="first letter to appear twice" />
     <MESSAGE value="Destination City" />
-    <option name="LAST_COMMIT_MESSAGE" value="Destination City" />
+    <MESSAGE value="Remove All Adjacent duplicates in string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove All Adjacent duplicates in string" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -744,7 +744,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/stack/easy/RemoveAllAdjacentDuplicatesString.java</url>
-          <line>15</line>
+          <line>12</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
