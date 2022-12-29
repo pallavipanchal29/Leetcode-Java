@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/MostCommonWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/GoatLatin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,20 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MostCommonWord">
+  <component name="RunManager" selected="Application.GoatLatin">
+    <configuration name="GoatLatin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.GoatLatin" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.JewelsAndStones" />
       <module name="Leetcode" />
@@ -83,19 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.DetectCapital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.DetectCapital" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="string.easy.LicenseKeyFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.LicenseKeyFormatting" />
       <module name="Leetcode" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoatLatin" />
         <item itemvalue="Application.MostCommonWord" />
         <item itemvalue="Application.RotateString" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.string.easy.LicenseKeyFormatting" />
-        <item itemvalue="Application.string.easy.DetectCapital" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Next greater element">
-      <created>1670945913928</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1670945913928</updated>
     </task>
     <task id="LOCAL-00091" summary="Relative ranks">
       <created>1670947762936</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672305310660</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Most common word">
+      <created>1672323114371</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1672323114371</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Max product of three numbers" />
     <MESSAGE value="MAx average subarray one" />
     <MESSAGE value="Keyboard row" />
     <MESSAGE value="Length of last word" />
@@ -504,7 +503,8 @@
     <MESSAGE value="License Key formatting" />
     <MESSAGE value="Jewels and stones" />
     <MESSAGE value="Rotate String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rotate String" />
+    <MESSAGE value="Most common word" />
+    <option name="LAST_COMMIT_MESSAGE" value="Most common word" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -756,6 +756,11 @@
           <url>file://$PROJECT_DIR$/src/string/easy/NumberOfSegmentsString.java</url>
           <line>10</line>
           <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/hashtable/MostCommonWord.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
