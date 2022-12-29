@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/JewelsAndStones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/RotateString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JewelsAndStones">
+  <component name="RunManager" selected="Application.RotateString">
     <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.JewelsAndStones" />
       <module name="Leetcode" />
@@ -56,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.DetectCapital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.DetectCapital" />
+    <configuration name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.RotateString" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.IsSubsequence" />
+    <configuration name="string.easy.DetectCapital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.DetectCapital" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateString" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.string.easy.LicenseKeyFormatting" />
         <item itemvalue="Application.string.easy.DetectCapital" />
         <item itemvalue="Application.string.easy.NumberOfSegmentsString" />
-        <item itemvalue="Application.string.easy.IsSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -126,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Consecutive Characters">
-      <created>1670944744899</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1670944744899</updated>
     </task>
     <task id="LOCAL-00089" summary="Teemo Attacking">
       <created>1670945181852</created>
@@ -470,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672304604665</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Jewels and stones">
+      <created>1672304995582</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1672304995582</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -478,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Missing number" />
     <MESSAGE value="Move zeroes" />
     <MESSAGE value="Max product of three numbers" />
     <MESSAGE value="MAx average subarray one" />
@@ -503,7 +503,8 @@
     <MESSAGE value="Number of segments in string" />
     <MESSAGE value="Detect Capital" />
     <MESSAGE value="License Key formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="License Key formatting" />
+    <MESSAGE value="Jewels and stones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jewels and stones" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
