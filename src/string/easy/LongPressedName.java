@@ -1,4 +1,4 @@
-package string.easy.hashtable;
+package string.easy;
 
 public class LongPressedName {
     public static void main(String[] args) {
