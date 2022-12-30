@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/RearrangeCharsToMakeTargetString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/SplitStringBalancedSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RearrangeCharsToMakeTargetString">
+  <component name="RunManager" selected="Application.SplitStringBalancedSubstring">
     <configuration name="RearrangeCharsToMakeTargetString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.RearrangeCharsToMakeTargetString" />
       <module name="Leetcode" />
@@ -57,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveOutermostParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.easy.RemoveOutermostParenthesis" />
+    <configuration name="SplitStringBalancedSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.SplitStringBalancedSubstring" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.easy.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplitStringBalancedSubstring" />
         <item itemvalue="Application.RearrangeCharsToMakeTargetString" />
         <item itemvalue="Application.string.easy.hashtable.WordsCanBeFormedByChars" />
         <item itemvalue="Application.string.easy.DayOfYear" />
         <item itemvalue="Application.string.easy.DefangingIPAddress" />
-        <item itemvalue="Application.RemoveOutermostParenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00105" summary="Guess Number higher or lower">
-      <created>1671259336235</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1671259336235</updated>
     </task>
     <task id="LOCAL-00106" summary="Ransom note">
       <created>1671267750571</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672388959572</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="Rearrange characters to make target string">
+      <created>1672390925716</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1672390925716</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="first letter to appear twice" />
     <MESSAGE value="Destination City" />
     <MESSAGE value="Remove All Adjacent duplicates in string" />
     <MESSAGE value="Find The difference" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Defanging IP address" />
     <MESSAGE value="Day of year" />
     <MESSAGE value="Find words that can be formed by characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find words that can be formed by characters" />
+    <MESSAGE value="Rearrange characters to make target string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearrange characters to make target string" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -814,7 +814,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/easy/hashtable/RearrangeCharsToMakeTargetString.java</url>
-          <line>19</line>
+          <line>16</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
       </breakpoints>
