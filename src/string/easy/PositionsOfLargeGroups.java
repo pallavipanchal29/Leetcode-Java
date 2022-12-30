@@ -1,4 +1,4 @@
-package string.easy.hashtable;
+package string.easy;
 
 import java.util.ArrayList;
 import java.util.List;
