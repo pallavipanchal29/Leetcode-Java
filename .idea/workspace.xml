@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/UniqueEmailAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/easy/RemoveOutermostParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/easy/hashtable/LongPressedName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/LongPressedName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,20 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniqueEmailAddresses">
+  <component name="RunManager" selected="Application.RemoveOutermostParenthesis">
+    <configuration name="RemoveOutermostParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.easy.RemoveOutermostParenthesis" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseOnlyLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.ReverseOnlyLetters" />
       <module name="Leetcode" />
@@ -97,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.hashtable.KthDistinctStringArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.KthDistinctStringArray" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveOutermostParenthesis" />
         <item itemvalue="Application.UniqueEmailAddresses" />
         <item itemvalue="Application.string.easy.LongPressedName" />
         <item itemvalue="Application.ReverseWordsStringthree" />
         <item itemvalue="Application.ReverseOnlyLetters" />
-        <item itemvalue="Application.string.easy.hashtable.KthDistinctStringArray" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00100" summary="Valid Palindrome- error fixed">
-      <created>1671251446264</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1671251446264</updated>
     </task>
     <task id="LOCAL-00101" summary="Valid Palindrome two">
       <created>1671254185907</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672381434965</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Unique email addresses">
+      <created>1672381898773</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1672381898773</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Reverse vowels of string" />
     <MESSAGE value="To Lower case" />
     <MESSAGE value="Capitalize the title" />
     <MESSAGE value="Shortest Completing Word" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Reverse only letters" />
     <MESSAGE value="Reverse words in string three" />
     <MESSAGE value="Long Pressed name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Long Pressed name" />
+    <MESSAGE value="Unique email addresses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unique email addresses" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -792,6 +791,11 @@
           <url>file://$PROJECT_DIR$/src/string/easy/ReverseWordsStringthree.java</url>
           <line>24</line>
           <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/easy/RemoveOutermostParenthesis.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
