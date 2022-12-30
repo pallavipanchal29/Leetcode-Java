@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/ReverseOnlyLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/ReverseWordsStringthree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,26 +43,13 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseOnlyLetters">
+  <component name="RunManager" selected="Application.ReverseWordsStringthree">
     <configuration name="CountCommonWordsOnceOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.CountCommonWordsOnceOccurance" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivideStringInGroupsSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.DivideStringInGroupsSizeK" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseWordsStringthree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.ReverseWordsStringthree" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UncommonWordsTwoSentences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.UncommonWordsTwoSentences" />
       <module name="Leetcode" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWordsStringthree" />
         <item itemvalue="Application.ReverseOnlyLetters" />
         <item itemvalue="Application.KthDistinctStringArray" />
         <item itemvalue="Application.CountCommonWordsOnceOccurance" />
         <item itemvalue="Application.UncommonWordsTwoSentences" />
-        <item itemvalue="Application.DivideStringInGroupsSizeK" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00097" summary="Best Time to buy and sell stock">
-      <created>1671249865009</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1671249865009</updated>
     </task>
     <task id="LOCAL-00098" summary="Valid Anagram">
       <created>1671251123712</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672379615483</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Reverse only letters">
+      <created>1672379880181</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1672379880181</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Isomorphic strings" />
     <MESSAGE value="Word Pattern" />
     <MESSAGE value="Reverse string" />
     <MESSAGE value="Reverse vowels of string" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Uncommon words in two sentences" />
     <MESSAGE value="Common words with once occurance in each sentence" />
     <MESSAGE value="Kth Distinct string in array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kth Distinct string in array" />
+    <MESSAGE value="Reverse only letters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse only letters" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -786,6 +786,11 @@
           <url>file://$PROJECT_DIR$/src/string/easy/hashtable/KthDistinctStringArray.java</url>
           <line>16</line>
           <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/ReverseWordsStringthree.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
