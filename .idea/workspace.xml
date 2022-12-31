@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/SlowestKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/LargestSubstringTwoEqualChars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,48 +43,9 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SlowestKey">
-    <configuration name="SlowestKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.SlowestKey" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThousandSeperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.ThousandSeperator" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.string.easy.hashtable.LargestSubstringTwoEqualChars">
     <configuration name="stack.easy.MakeStringGreat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.easy.MakeStringGreat" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="string.easy.CheckIfWordPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.CheckIfWordPrefix" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -109,13 +70,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="string.easy.SlowestKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.SlowestKey" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string.easy.ThousandSeperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.ThousandSeperator" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string.easy.hashtable.LargestSubstringTwoEqualChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.LargestSubstringTwoEqualChars" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SlowestKey" />
-        <item itemvalue="Application.ThousandSeperator" />
+        <item itemvalue="Application.string.easy.hashtable.LargestSubstringTwoEqualChars" />
+        <item itemvalue="Application.string.easy.SlowestKey" />
+        <item itemvalue="Application.string.easy.ThousandSeperator" />
         <item itemvalue="Application.stack.easy.MakeStringGreat" />
         <item itemvalue="Application.string.easy.ShuffleString" />
-        <item itemvalue="Application.string.easy.CheckIfWordPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00116" summary="Keyboard row">
-      <created>1672029581840</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1672029581840</updated>
     </task>
     <task id="LOCAL-00117" summary="Length of last word">
       <created>1672029941136</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672477634577</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Slowest Key">
+      <created>1672493549294</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1672493549294</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Goat latin" />
     <MESSAGE value="Positions of large groups" />
     <MESSAGE value="Divide string in groups of size k" />
     <MESSAGE value="Uncommon words in two sentences" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Shuffle String" />
     <MESSAGE value="Make String great" />
     <MESSAGE value="Thousand Seperator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thousand Seperator" />
+    <MESSAGE value="Slowest Key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slowest Key" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -841,6 +841,16 @@
           <url>file://$PROJECT_DIR$/src/stack/easy/MakeStringGreat.java</url>
           <line>16</line>
           <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/SlowestKey.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/LargestSubstringTwoEqualChars.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="153" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
