@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/NumberOfDaysBetweenDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/CountDaysSpentTogether.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,20 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfDaysBetweenDates">
+  <component name="RunManager" selected="Application.CountDaysSpentTogether">
+    <configuration name="CountDaysSpentTogether" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.CountDaysSpentTogether" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberOfDaysBetweenDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.NumberOfDaysBetweenDates" />
       <module name="Leetcode" />
@@ -83,19 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.DayOfYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.DayOfYear" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="string.easy.hashtable.WordsCanBeFormedByChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.WordsCanBeFormedByChars" />
       <module name="Leetcode" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDaysSpentTogether" />
         <item itemvalue="Application.NumberOfDaysBetweenDates" />
         <item itemvalue="Application.SplitStringBalancedSubstring" />
         <item itemvalue="Application.RearrangeCharsToMakeTargetString" />
         <item itemvalue="Application.string.easy.hashtable.WordsCanBeFormedByChars" />
-        <item itemvalue="Application.string.easy.DayOfYear" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Longest Palindrome">
-      <created>1671268298156</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1671268298156</updated>
     </task>
     <task id="LOCAL-00108" summary="majority element">
       <created>1671333890893</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672391200917</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Number of dates between dates">
+      <created>1672459882010</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1672459882010</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Remove All Adjacent duplicates in string" />
     <MESSAGE value="Find The difference" />
     <MESSAGE value="Is Subsequence" />
     <MESSAGE value="Number of segments in string" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Find words that can be formed by characters" />
     <MESSAGE value="Rearrange characters to make target string" />
     <MESSAGE value="Split String in balanced substrings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split String in balanced substrings" />
+    <MESSAGE value="Number of dates between dates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number of dates between dates" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -816,6 +816,11 @@
           <url>file://$PROJECT_DIR$/src/string/easy/hashtable/RearrangeCharsToMakeTargetString.java</url>
           <line>16</line>
           <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/CountDaysSpentTogether.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
