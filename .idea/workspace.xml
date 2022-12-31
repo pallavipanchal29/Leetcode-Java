@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/GoalParserInterpretation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/NumberOfConsistentStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoalParserInterpretation">
+  <component name="RunManager" selected="Application.NumberOfConsistentStrings">
     <configuration name="GoalParserInterpretation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.GoalParserInterpretation" />
       <module name="Leetcode" />
@@ -57,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stack.easy.MakeStringGreat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.easy.MakeStringGreat" />
+    <configuration name="NumberOfConsistentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.NumberOfConsistentStrings" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.easy.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfConsistentStrings" />
         <item itemvalue="Application.GoalParserInterpretation" />
         <item itemvalue="Application.string.easy.hashtable.LargestSubstringTwoEqualChars" />
         <item itemvalue="Application.string.easy.SlowestKey" />
         <item itemvalue="Application.string.easy.ThousandSeperator" />
-        <item itemvalue="Application.stack.easy.MakeStringGreat" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00118" summary="Increasing decreasing String">
-      <created>1672030909314</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1672030909314</updated>
     </task>
     <task id="LOCAL-00119" summary="Min Index sum of two lists">
       <created>1672032670883</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672494064424</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Goal parser interpretation">
+      <created>1672494983016</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1672494983016</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Divide string in groups of size k" />
     <MESSAGE value="Uncommon words in two sentences" />
     <MESSAGE value="Common words with once occurance in each sentence" />
     <MESSAGE value="Kth Distinct string in array" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Thousand Seperator" />
     <MESSAGE value="Slowest Key" />
     <MESSAGE value="Largest substring between two equal chars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Largest substring between two equal chars" />
+    <MESSAGE value="Goal parser interpretation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Goal parser interpretation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -851,11 +851,6 @@
           <url>file://$PROJECT_DIR$/src/string/easy/hashtable/LargestSubstringTwoEqualChars.java</url>
           <line>16</line>
           <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/easy/GoalParserInterpretation.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="156" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
