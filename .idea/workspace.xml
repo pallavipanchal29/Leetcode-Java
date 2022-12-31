@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/MakeStringGreat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/ThousandSeperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,20 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.stack.easy.MakeStringGreat">
+  <component name="RunManager" selected="Application.ThousandSeperator">
+    <configuration name="ThousandSeperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.ThousandSeperator" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="stack.easy.MakeStringGreat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.easy.MakeStringGreat" />
       <module name="Leetcode" />
@@ -83,19 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.GenerateStringwithCharacterWithOddCounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.GenerateStringwithCharacterWithOddCounts" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="string.easy.ShuffleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.ShuffleString" />
       <module name="Leetcode" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThousandSeperator" />
         <item itemvalue="Application.stack.easy.MakeStringGreat" />
         <item itemvalue="Application.string.easy.ShuffleString" />
         <item itemvalue="Application.string.easy.CheckIfWordPrefix" />
         <item itemvalue="Application.string.easy.DecryptStringFromAlphabetIntegerMapping" />
-        <item itemvalue="Application.string.easy.GenerateStringwithCharacterWithOddCounts" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Max product of three numbers">
-      <created>1672027836400</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1672027836400</updated>
     </task>
     <task id="LOCAL-00115" summary="MAx average subarray one">
       <created>1672028879770</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672473634718</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="Make String great">
+      <created>1672474619438</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1672474619438</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Rotate String" />
     <MESSAGE value="Most common word" />
     <MESSAGE value="Goat latin" />
     <MESSAGE value="Positions of large groups" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Decrypt string from alphabet to string matching" />
     <MESSAGE value="check if word is prefix" />
     <MESSAGE value="Shuffle String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shuffle String" />
+    <MESSAGE value="Make String great" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make String great" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -838,9 +838,19 @@
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/easy/MakeStringGreat.java</url>
+          <url>file://$PROJECT_DIR$/src/stack/easy/MakeStringGreat.java</url>
           <line>16</line>
           <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/ThousandSeperator.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/ThousandSeperator.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
