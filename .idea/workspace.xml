@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/ReformatString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/GenerateStringwithCharacterWithOddCounts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/easy/CountDaysSpentTogether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/datetime/CountDaysSpentTogether.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/easy/DayOfYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/datetime/DayOfYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/easy/NumberOfDaysBetweenDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/datetime/NumberOfDaysBetweenDates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/easy/ReformatDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/datetime/ReformatDate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReformatString">
+  <component name="RunManager" selected="Application.GenerateStringwithCharacterWithOddCounts">
     <configuration name="CountDaysSpentTogether" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.datetime.CountDaysSpentTogether" />
       <module name="Leetcode" />
@@ -61,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfDaysBetweenDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.datetime.NumberOfDaysBetweenDates" />
+    <configuration name="GenerateStringwithCharacterWithOddCounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.GenerateStringwithCharacterWithOddCounts" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.datetime.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeCharsToMakeTargetString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.RearrangeCharsToMakeTargetString" />
+    <configuration name="NumberOfDaysBetweenDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.datetime.NumberOfDaysBetweenDates" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="PATTERN" value="string.easy.datetime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateStringwithCharacterWithOddCounts" />
         <item itemvalue="Application.ReformatString" />
         <item itemvalue="Application.string.easy.CountDaysSpentTogether" />
         <item itemvalue="Application.string.easy.NumberOfDaysBetweenDates" />
         <item itemvalue="Application.string.easy.SplitStringBalancedSubstring" />
-        <item itemvalue="Application.RearrangeCharsToMakeTargetString" />
       </list>
     </recent_temporary>
   </component>
@@ -131,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Reverse linked list">
-      <created>1671334413695</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1671334413695</updated>
     </task>
     <task id="LOCAL-00110" summary="Middle of LL">
       <created>1671334796944</created>
@@ -475,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672460783371</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="Reformat String">
+      <created>1672462277063</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1672462277063</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -483,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Is Subsequence" />
     <MESSAGE value="Number of segments in string" />
     <MESSAGE value="Detect Capital" />
     <MESSAGE value="License Key formatting" />
@@ -508,7 +503,8 @@
     <MESSAGE value="Split String in balanced substrings" />
     <MESSAGE value="Number of dates between dates" />
     <MESSAGE value="count days spent together" />
-    <option name="LAST_COMMIT_MESSAGE" value="count days spent together" />
+    <MESSAGE value="Reformat String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat String" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -825,6 +821,11 @@
           <url>file://$PROJECT_DIR$/src/string/easy/datetime/CountDaysSpentTogether.java</url>
           <line>15</line>
           <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/ReformatString.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
