@@ -1,4 +1,4 @@
-package string.easy;
+package string.easy.datetime;
 
 import java.time.LocalDate;
 import java.time.Year;

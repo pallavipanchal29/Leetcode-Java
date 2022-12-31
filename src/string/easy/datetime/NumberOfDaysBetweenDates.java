@@ -1,4 +1,4 @@
-package string.easy;
+package string.easy.datetime;
 
 public class NumberOfDaysBetweenDates {
     private static final int[] months = new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};

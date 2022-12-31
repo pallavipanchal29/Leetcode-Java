@@ -1,4 +1,4 @@
-package string.easy;
+package string.easy.datetime;
 
 public class ReformatDate {
     public static void main(String[] args) {
