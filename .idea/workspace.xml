@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/TwoPointers/NumberOfDistinctAverages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/SumOfUniqueElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00126" summary="Capitalize the title">
-      <created>1672211818212</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1672211818212</updated>
     </task>
     <task id="LOCAL-00127" summary="Shortest Completing Word">
       <created>1672214552755</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672565551280</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="number of distinct averages">
+      <created>1672566361775</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1672566361775</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Remove outermost parenthesis" />
     <MESSAGE value="Defanging IP address" />
     <MESSAGE value="Day of year" />
     <MESSAGE value="Find words that can be formed by characters" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Valid mountain array" />
     <MESSAGE value="Replace element with greatest element on right side" />
     <MESSAGE value="check distance between same letters" />
-    <option name="LAST_COMMIT_MESSAGE" value="check distance between same letters" />
+    <MESSAGE value="number of distinct averages" />
+    <option name="LAST_COMMIT_MESSAGE" value="number of distinct averages" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -866,11 +866,6 @@
           <url>file://$PROJECT_DIR$/src/array/easy/ReplaceElemWithGreatestElemOnRight.java</url>
           <line>12</line>
           <option name="timeStamp" value="162" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/easy/TwoPointers/NumberOfDistinctAverages.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="164" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
