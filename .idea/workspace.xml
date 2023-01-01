@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/DistanceBetweenSameLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/TwoPointers/NumberOfDistinctAverages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DistanceBetweenSameLetters">
+  <component name="RunManager" selected="Application.array.easy.hashtable.NumberOfDistinctAverages">
     <configuration name="DistanceBetweenSameLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.DistanceBetweenSameLetters" />
       <module name="Leetcode" />
@@ -57,25 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.DuplicateZeroes" />
+    <configuration name="LargestPositiveIntegerThatExistsWithItsNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.LargestPositiveIntegerThatExistsWithItsNegative" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeanOfArrayAfterRemovingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.MeanOfArrayAfterRemovingElements" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="array.easy.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="array.easy.hashtable.NumberOfDistinctAverages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.NumberOfDistinctAverages" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.array.easy.hashtable.NumberOfDistinctAverages" />
+        <item itemvalue="Application.LargestPositiveIntegerThatExistsWithItsNegative" />
         <item itemvalue="Application.DistanceBetweenSameLetters" />
         <item itemvalue="Application.ReplaceElemWithGreatestElemOnRight" />
         <item itemvalue="Application.ValidMountainArray" />
-        <item itemvalue="Application.MeanOfArrayAfterRemovingElements" />
-        <item itemvalue="Application.DuplicateZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00125" summary="To Lower case">
-      <created>1672205847168</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1672205847168</updated>
     </task>
     <task id="LOCAL-00126" summary="Capitalize the title">
       <created>1672211818212</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672564155620</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="check distance between same letters">
+      <created>1672565551280</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1672565551280</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Unique email addresses" />
     <MESSAGE value="Remove outermost parenthesis" />
     <MESSAGE value="Defanging IP address" />
     <MESSAGE value="Day of year" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Mean of array after removing elements" />
     <MESSAGE value="Valid mountain array" />
     <MESSAGE value="Replace element with greatest element on right side" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace element with greatest element on right side" />
+    <MESSAGE value="check distance between same letters" />
+    <option name="LAST_COMMIT_MESSAGE" value="check distance between same letters" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -868,9 +868,9 @@
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/easy/hashtable/DistanceBetweenSameLetters.java</url>
+          <url>file://$PROJECT_DIR$/src/array/easy/TwoPointers/NumberOfDistinctAverages.java</url>
           <line>14</line>
-          <option name="timeStamp" value="163" />
+          <option name="timeStamp" value="164" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
