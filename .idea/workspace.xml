@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/DuplicateZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/MeanOfArrayAfterRemovingElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DuplicateZeroes">
+  <component name="RunManager" selected="Application.MeanOfArrayAfterRemovingElements">
     <configuration name="DuplicateZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.DuplicateZeroes" />
       <module name="Leetcode" />
@@ -63,6 +63,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeanOfArrayAfterRemovingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.MeanOfArrayAfterRemovingElements" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.hashtable.LargestSubstringTwoEqualChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.LargestSubstringTwoEqualChars" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MeanOfArrayAfterRemovingElements" />
         <item itemvalue="Application.DuplicateZeroes" />
         <item itemvalue="Application.SquaresOfSortedArray" />
         <item itemvalue="Application.NumberOfConsistentStrings" />
         <item itemvalue="Application.GoalParserInterpretation" />
-        <item itemvalue="Application.string.easy.hashtable.LargestSubstringTwoEqualChars" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00121" summary="Isomorphic strings">
-      <created>1672204031258</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1672204031258</updated>
     </task>
     <task id="LOCAL-00122" summary="Word Pattern">
       <created>1672204964265</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672561426239</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="Duplicate zeroes">
+      <created>1672561888943</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1672561888943</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Kth Distinct string in array" />
     <MESSAGE value="Reverse only letters" />
     <MESSAGE value="Reverse words in string three" />
     <MESSAGE value="Long Pressed name" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Goal parser interpretation" />
     <MESSAGE value="Count number of consistent strings" />
     <MESSAGE value="Squares of sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Squares of sorted array" />
+    <MESSAGE value="Duplicate zeroes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Duplicate zeroes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -854,7 +854,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/DuplicateZeroes.java</url>
-          <line>15</line>
+          <line>12</line>
           <option name="timeStamp" value="158" />
         </line-breakpoint>
       </breakpoints>
