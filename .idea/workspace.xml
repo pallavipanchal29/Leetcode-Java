@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="Remove anagrams">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/ResultantArrayAfterRemovingAnagrams.java" afterDir="false" />
+    <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/array/easy/math/PerfectNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ResultantArrayAfterRemovingAnagrams">
+  <component name="RunManager" selected="Application.PerfectNumber">
     <configuration name="CheckArrayFormationThroughConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.CheckArrayFormationThroughConcatenation" />
       <module name="Leetcode" />
@@ -83,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.math.PerfectNumber" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ResultantArrayAfterRemovingAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.ResultantArrayAfterRemovingAnagrams" />
       <module name="Leetcode" />
@@ -96,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RingsAndRods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.RingsAndRods" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PerfectNumber" />
         <item itemvalue="Application.ResultantArrayAfterRemovingAnagrams" />
         <item itemvalue="Application.CheckEveryrowColumnContainsAllNumbers" />
         <item itemvalue="Application.CheckArrayFormationThroughConcatenation" />
         <item itemvalue="Application.MergeSimilarItems" />
-        <item itemvalue="Application.RingsAndRods" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00146" summary="Reverse only letters">
-      <created>1672379880181</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1672379880181</updated>
     </task>
     <task id="LOCAL-00147" summary="Reverse words in string three">
       <created>1672380451575</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672645495451</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="find resultant array after removing anagrams">
+      <created>1672647251374</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1672647251374</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Duplicate zeroes" />
     <MESSAGE value="Mean of array after removing elements" />
     <MESSAGE value="Valid mountain array" />
     <MESSAGE value="Replace element with greatest element on right side" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Merge Similar items" />
     <MESSAGE value="check array formation through concatenation" />
     <MESSAGE value="Check if every row and column contains all numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check if every row and column contains all numbers" />
+    <MESSAGE value="find resultant array after removing anagrams" />
+    <option name="LAST_COMMIT_MESSAGE" value="find resultant array after removing anagrams" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -914,8 +914,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/easy/hashtable/ResultantArrayAfterRemovingAnagrams.java</url>
-          <line>24</line>
+          <line>21</line>
           <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/math/PerfectNumber.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="186" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
