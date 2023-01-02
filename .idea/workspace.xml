@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/BestPokerHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/UniqueNumberOfOccurances.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,22 +43,9 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BestPokerHand">
+  <component name="RunManager" selected="Application.UniqueNumberOfOccurances">
     <configuration name="BestPokerHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.BestPokerHand" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LuckyIntegerInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.LuckyIntegerInArray" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -96,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueNumberOfOccurances" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.UniqueNumberOfOccurances" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="array.easy.hashtable.DistributeCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.DistributeCandies" />
       <module name="Leetcode" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueNumberOfOccurances" />
         <item itemvalue="Application.BestPokerHand" />
         <item itemvalue="Application.MaximumNumberPairsArray" />
         <item itemvalue="Application.array.easy.hashtable.DistributeCandies" />
         <item itemvalue="Application.SetMismatch" />
-        <item itemvalue="Application.LuckyIntegerInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00136" summary="License Key formatting">
-      <created>1672304604665</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1672304604665</updated>
     </task>
     <task id="LOCAL-00137" summary="Jewels and stones">
       <created>1672304995582</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672636624100</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Best Poker hand">
+      <created>1672638450313</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1672638450313</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Decrypt string from alphabet to string matching" />
     <MESSAGE value="check if word is prefix" />
     <MESSAGE value="Shuffle String" />
     <MESSAGE value="Make String great" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Set mismatch" />
     <MESSAGE value="Distribute Candies" />
     <MESSAGE value="maximum number of pairs in array" />
-    <option name="LAST_COMMIT_MESSAGE" value="maximum number of pairs in array" />
+    <MESSAGE value="Best Poker hand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Best Poker hand" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -894,8 +894,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/BestPokerHand.java</url>
-          <line>42</line>
+          <line>36</line>
           <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/hashtable/UniqueNumberOfOccurances.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
