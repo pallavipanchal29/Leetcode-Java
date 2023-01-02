@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/NumberOfPairsAbsoluteDiffK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/TwoOutOfThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfPairsAbsoluteDiffK">
-    <configuration name="DistanceBetweenSameLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.DistanceBetweenSameLetters" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoOutOfThree">
     <configuration name="LargestPositiveIntegerThatExistsWithItsNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.LargestPositiveIntegerThatExistsWithItsNegative" />
       <module name="Leetcode" />
@@ -72,6 +59,19 @@
     </configuration>
     <configuration name="NumberOfPairsAbsoluteDiffK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.NumberOfPairsAbsoluteDiffK" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoOutOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.TwoOutOfThree" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoOutOfThree" />
         <item itemvalue="Application.NumberOfPairsAbsoluteDiffK" />
         <item itemvalue="Application.checkAllIntegersRangeCovered" />
         <item itemvalue="Application.array.easy.hashtable.NumberOfDistinctAverages" />
         <item itemvalue="Application.LargestPositiveIntegerThatExistsWithItsNegative" />
-        <item itemvalue="Application.DistanceBetweenSameLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00129" summary="first letter to appear twice">
-      <created>1672291877435</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1672291877435</updated>
     </task>
     <task id="LOCAL-00130" summary="Destination City">
       <created>1672292444285</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672632973138</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Number of pairs with absolute diff k">
+      <created>1672633919647</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1672633919647</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Find words that can be formed by characters" />
     <MESSAGE value="Rearrange characters to make target string" />
     <MESSAGE value="Split String in balanced substrings" />
     <MESSAGE value="Number of dates between dates" />
@@ -504,7 +503,8 @@
     <MESSAGE value="number of distinct averages" />
     <MESSAGE value="Sum of unique elements" />
     <MESSAGE value="Check if all integers in range are covered" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check if all integers in range are covered" />
+    <MESSAGE value="Number of pairs with absolute diff k" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number of pairs with absolute diff k" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -869,7 +869,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/NumberOfPairsAbsoluteDiffK.java</url>
-          <line>16</line>
+          <line>14</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
       </breakpoints>
