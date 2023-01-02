@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/NRepeatedElement2Narray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/xOfAKind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NRepeatedElement2Narray">
+  <component name="RunManager" selected="Application.xOfAKind">
     <configuration name="BestPokerHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.BestPokerHand" />
       <module name="Leetcode" />
@@ -96,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.hashtable.DistributeCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.DistributeCandies" />
+    <configuration name="xOfAKind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.xOfAKind" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.xOfAKind" />
         <item itemvalue="Application.NRepeatedElement2Narray" />
         <item itemvalue="Application.UniqueNumberOfOccurances" />
         <item itemvalue="Application.BestPokerHand" />
         <item itemvalue="Application.MaximumNumberPairsArray" />
-        <item itemvalue="Application.array.easy.hashtable.DistributeCandies" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00138" summary="Rotate String">
-      <created>1672305310660</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1672305310660</updated>
     </task>
     <task id="LOCAL-00139" summary="Most common word">
       <created>1672323114371</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672638998379</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="N repeated elements in 2N array">
+      <created>1672640050385</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1672640050385</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Shuffle String" />
     <MESSAGE value="Make String great" />
     <MESSAGE value="Thousand Seperator" />
     <MESSAGE value="Slowest Key" />
@@ -504,7 +503,8 @@
     <MESSAGE value="maximum number of pairs in array" />
     <MESSAGE value="Best Poker hand" />
     <MESSAGE value="Unique Number of occurances" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unique Number of occurances" />
+    <MESSAGE value="N repeated elements in 2N array" />
+    <option name="LAST_COMMIT_MESSAGE" value="N repeated elements in 2N array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -901,6 +901,11 @@
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/UniqueNumberOfOccurances.java</url>
           <line>15</line>
           <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/hashtable/xOfAKind.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="175" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
