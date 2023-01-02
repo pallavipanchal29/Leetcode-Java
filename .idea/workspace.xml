@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/DistributeCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/MaximumNumberPairsArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.array.easy.hashtable.DistributeCandies">
+  <component name="RunManager" selected="Application.MaximumNumberPairsArray">
     <configuration name="LuckyIntegerInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.LuckyIntegerInArray" />
       <module name="Leetcode" />
@@ -57,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMismatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.SetMismatch" />
+    <configuration name="MaximumNumberPairsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.MaximumNumberPairsArray" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoOutOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.TwoOutOfThree" />
+    <configuration name="SetMismatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.SetMismatch" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumNumberPairsArray" />
         <item itemvalue="Application.array.easy.hashtable.DistributeCandies" />
         <item itemvalue="Application.SetMismatch" />
         <item itemvalue="Application.LuckyIntegerInArray" />
         <item itemvalue="Application.array.easy.MinMaxGame" />
-        <item itemvalue="Application.TwoOutOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00134" summary="Number of segments in string">
-      <created>1672294646465</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1672294646465</updated>
     </task>
     <task id="LOCAL-00135" summary="Detect Capital">
       <created>1672297363865</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672635639438</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="Distribute Candies">
+      <created>1672635891493</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1672635891493</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Reformat String" />
     <MESSAGE value="Generate string with Characters with odd counts" />
     <MESSAGE value="Decrypt string from alphabet to string matching" />
     <MESSAGE value="check if word is prefix" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Min Max game" />
     <MESSAGE value="Lucky Integer in array" />
     <MESSAGE value="Set mismatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set mismatch" />
+    <MESSAGE value="Distribute Candies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Distribute Candies" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -881,6 +881,16 @@
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/SetMismatch.java</url>
           <line>15</line>
           <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/hashtable/MaximumNumberPairsArray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/hashtable/MaximumNumberPairsArray.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="171" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
