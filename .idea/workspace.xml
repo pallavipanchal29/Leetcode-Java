@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/FairCandySwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/CheckAllcharsEqualOccurances.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +43,13 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FairCandySwap">
-    <configuration name="BestPokerHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.BestPokerHand" />
+  <component name="RunManager" selected="Application.CheckAllcharsEqualOccurances">
+    <configuration name="CheckAllcharsEqualOccurances" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.CheckAllcharsEqualOccurances" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.hashtable.*" />
+          <option name="PATTERN" value="string.easy.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckAllcharsEqualOccurances" />
         <item itemvalue="Application.FairCandySwap" />
         <item itemvalue="Application.xOfAKind" />
         <item itemvalue="Application.NRepeatedElement2Narray" />
         <item itemvalue="Application.UniqueNumberOfOccurances" />
-        <item itemvalue="Application.BestPokerHand" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00140" summary="Goat latin">
-      <created>1672323596762</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1672323596762</updated>
     </task>
     <task id="LOCAL-00141" summary="Positions of large groups">
       <created>1672377164650</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672640920193</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="Fair candy swap">
+      <created>1672641922165</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1672641922165</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Thousand Seperator" />
     <MESSAGE value="Slowest Key" />
     <MESSAGE value="Largest substring between two equal chars" />
     <MESSAGE value="Goal parser interpretation" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Unique Number of occurances" />
     <MESSAGE value="N repeated elements in 2N array" />
     <MESSAGE value="X of a kind in deck of cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="X of a kind in deck of cards" />
+    <MESSAGE value="Fair candy swap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fair candy swap" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -904,7 +904,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/FairCandySwap.java</url>
-          <line>25</line>
+          <line>23</line>
           <option name="timeStamp" value="177" />
         </line-breakpoint>
       </breakpoints>
