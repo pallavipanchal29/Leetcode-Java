@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/FindHighestAltitude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/MaximumUnitsOnTruck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindHighestAltitude">
+  <component name="RunManager" selected="Application.MaximumUnitsOnTruck">
     <configuration name="DeleteColumnsToMakeSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.DeleteColumnsToMakeSorted" />
       <module name="Leetcode" />
@@ -59,6 +59,19 @@
     </configuration>
     <configuration name="FindHighestAltitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.FindHighestAltitude" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumUnitsOnTruck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.MaximumUnitsOnTruck" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -96,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultantArrayAfterRemovingAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.ResultantArrayAfterRemovingAnagrams" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumUnitsOnTruck" />
         <item itemvalue="Application.FindHighestAltitude" />
         <item itemvalue="Application.DeleteColumnsToMakeSorted" />
         <item itemvalue="Application.MinimumAbsoluteDifference" />
         <item itemvalue="Application.PerfectNumber" />
-        <item itemvalue="Application.ResultantArrayAfterRemovingAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00150" summary="Remove outermost parenthesis">
-      <created>1672383081808</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1672383081808</updated>
     </task>
     <task id="LOCAL-00151" summary="Defanging IP address">
       <created>1672383279832</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672718777655</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="Find highest altitude">
+      <created>1672719643883</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1672719643883</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="check distance between same letters" />
     <MESSAGE value="number of distinct averages" />
     <MESSAGE value="Sum of unique elements" />
     <MESSAGE value="Check if all integers in range are covered" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Perfect number" />
     <MESSAGE value="Minimum absolute difference" />
     <MESSAGE value="Delete columns to make sorted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete columns to make sorted" />
+    <MESSAGE value="Find highest altitude" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find highest altitude" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -929,8 +929,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/FindHighestAltitude.java</url>
-          <line>14</line>
+          <line>11</line>
           <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/MaximumUnitsOnTruck.java</url>
+          <line>13</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="191" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
