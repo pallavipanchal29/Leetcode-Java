@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/greedy/easy/MinNumberMovesSeatEveryone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/FindDistanceValueTwoArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +43,13 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinNumberMovesSeatEveryone">
-    <configuration name="DeleteColumnsToMakeSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.DeleteColumnsToMakeSorted" />
+  <component name="RunManager" selected="Application.FindDistanceValueTwoArrays">
+    <configuration name="FindDistanceValueTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.FindDistanceValueTwoArrays" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDistanceValueTwoArrays" />
         <item itemvalue="Application.MinNumberMovesSeatEveryone" />
         <item itemvalue="Application.MaxProductDiffTwoPairs" />
         <item itemvalue="Application.greedy.easy.MaximumUnitsOnTruck" />
         <item itemvalue="Application.array.easy.FindHighestAltitude" />
-        <item itemvalue="Application.DeleteColumnsToMakeSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00153" summary="Find words that can be formed by characters">
-      <created>1672388959572</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1672388959572</updated>
     </task>
     <task id="LOCAL-00154" summary="Rearrange characters to make target string">
       <created>1672390925716</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672721547329</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="Min number of moves to seat everyone">
+      <created>1672722128269</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1672722128269</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Check if all integers in range are covered" />
     <MESSAGE value="Number of pairs with absolute diff k" />
     <MESSAGE value="Two out of three" />
     <MESSAGE value="Min Max game" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Find highest altitude" />
     <MESSAGE value="Maximum units on truck" />
     <MESSAGE value="Maximum product difference between two pairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maximum product difference between two pairs" />
+    <MESSAGE value="Min number of moves to seat everyone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Min number of moves to seat everyone" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
