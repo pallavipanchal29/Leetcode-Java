@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/greedy/easy/MaxProductDiffTwoPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/easy/MinNumberMovesSeatEveryone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/easy/MaximumUnitsOnTruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greedy/easy/MaximumUnitsOnTruck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxProductDiffTwoPairs">
+  <component name="RunManager" selected="Application.MinNumberMovesSeatEveryone">
     <configuration name="DeleteColumnsToMakeSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.DeleteColumnsToMakeSorted" />
       <module name="Leetcode" />
@@ -71,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.FindHighestAltitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.FindHighestAltitude" />
+    <configuration name="MinNumberMovesSeatEveryone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.easy.MinNumberMovesSeatEveryone" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.easy.MinimumAbsoluteDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.MinimumAbsoluteDifference" />
+    <configuration name="array.easy.FindHighestAltitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.FindHighestAltitude" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinNumberMovesSeatEveryone" />
         <item itemvalue="Application.MaxProductDiffTwoPairs" />
         <item itemvalue="Application.greedy.easy.MaximumUnitsOnTruck" />
         <item itemvalue="Application.array.easy.FindHighestAltitude" />
         <item itemvalue="Application.DeleteColumnsToMakeSorted" />
-        <item itemvalue="Application.array.easy.MinimumAbsoluteDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00152" summary="Day of year">
-      <created>1672388147185</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1672388147185</updated>
     </task>
     <task id="LOCAL-00153" summary="Find words that can be formed by characters">
       <created>1672388959572</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672721279180</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="Maximum product difference between two pairs">
+      <created>1672721547329</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1672721547329</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Sum of unique elements" />
     <MESSAGE value="Check if all integers in range are covered" />
     <MESSAGE value="Number of pairs with absolute diff k" />
     <MESSAGE value="Two out of three" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Delete columns to make sorted" />
     <MESSAGE value="Find highest altitude" />
     <MESSAGE value="Maximum units on truck" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maximum units on truck" />
+    <MESSAGE value="Maximum product difference between two pairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maximum product difference between two pairs" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
