@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/math/CountDigitsThatDivideNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/math/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDigitsThatDivideNumber">
+  <component name="RunManager" selected="Application.HappyNumber">
     <configuration name="CountDigitsThatDivideNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.math.CountDigitsThatDivideNumber" />
       <module name="Leetcode" />
@@ -56,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinRoundsToCompleteAllTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.medium.hashtable.MinRoundsToCompleteAllTasks" />
+    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.math.HappyNumber" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.medium.hashtable.*" />
+          <option name="PATTERN" value="array.easy.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.CountDigitsThatDivideNumber" />
         <item itemvalue="Application.SelfDividingNumbers" />
         <item itemvalue="Application.SubsequenceOfLengthKLargestSum" />
         <item itemvalue="Application.SortIntegersNumber1Bits" />
-        <item itemvalue="Application.MinRoundsToCompleteAllTasks" />
       </list>
     </recent_temporary>
   </component>
@@ -126,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00162" summary="Shuffle String">
-      <created>1672473634718</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1672473634718</updated>
     </task>
     <task id="LOCAL-00163" summary="Make String great">
       <created>1672474619438</created>
@@ -470,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672805190571</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Count digits that divide a number">
+      <created>1672805533076</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1672805533076</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -478,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Unique Number of occurances" />
     <MESSAGE value="N repeated elements in 2N array" />
     <MESSAGE value="X of a kind in deck of cards" />
     <MESSAGE value="Fair candy swap" />
@@ -503,7 +503,8 @@
     <MESSAGE value="Subsequence of length k with largest sum" />
     <MESSAGE value="Target Indices after sorting array" />
     <MESSAGE value="Self Dividing numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Self Dividing numbers" />
+    <MESSAGE value="Count digits that divide a number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Count digits that divide a number" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -958,6 +959,11 @@
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/RankTransformOfArray.java</url>
           <line>17</line>
           <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/math/HappyNumber.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="208" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
