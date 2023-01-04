@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/math/CountIntegersEvenDigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/easy/BaseballGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountIntegersEvenDigitSum">
+  <component name="RunManager" selected="Application.BaseballGame">
     <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.math.AddDigits" />
       <module name="Leetcode" />
@@ -57,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDigitsThatDivideNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.math.CountDigitsThatDivideNumber" />
+    <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.easy.BaseballGame" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.math.*" />
+          <option name="PATTERN" value="stack.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseballGame" />
         <item itemvalue="Application.CountIntegersEvenDigitSum" />
         <item itemvalue="Application.string.easy.math.SumDigitsAfterConvert" />
         <item itemvalue="Application.AddDigits" />
         <item itemvalue="Application.HappyNumber" />
-        <item itemvalue="Application.CountDigitsThatDivideNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00166" summary="Largest substring between two equal chars">
-      <created>1672494064424</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1672494064424</updated>
     </task>
     <task id="LOCAL-00167" summary="Goal parser interpretation">
       <created>1672494983016</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672817548363</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="Count integers with even digit sum">
+      <created>1672818189175</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1672818189175</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Check if all characters have equal occurances" />
     <MESSAGE value="Rings and rods" />
     <MESSAGE value="Merge Similar items" />
     <MESSAGE value="check array formation through concatenation" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Happy number" />
     <MESSAGE value="Add digits" />
     <MESSAGE value="Sum of digits after convert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sum of digits after convert" />
+    <MESSAGE value="Count integers with even digit sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Count integers with even digit sum" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
