@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/SubsequenceOfLengthKLargestSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/TargetIndicesAfterSortingArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00159" summary="Generate string with Characters with odd counts">
-      <created>1672462766258</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1672462766258</updated>
     </task>
     <task id="LOCAL-00160" summary="Decrypt string from alphabet to string matching">
       <created>1672464607676</created>
@@ -471,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672803112690</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="Subsequence of length k with largest sum">
+      <created>1672804193206</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1672804193206</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +478,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Distribute Candies" />
     <MESSAGE value="maximum number of pairs in array" />
     <MESSAGE value="Best Poker hand" />
     <MESSAGE value="Unique Number of occurances" />
@@ -504,7 +502,8 @@
     <MESSAGE value="Rank transform of array" />
     <MESSAGE value="Minimum rounds to complete all tasks" />
     <MESSAGE value="Sort Integers by number of 1 bits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort Integers by number of 1 bits" />
+    <MESSAGE value="Subsequence of length k with largest sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subsequence of length k with largest sum" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
