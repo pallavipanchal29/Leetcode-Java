@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/RankTransformOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/medium/hashtable/MinRoundsToCompleteAllTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RankTransformOfArray">
+  <component name="RunManager" selected="Application.MinRoundsToCompleteAllTasks">
     <configuration name="AvgSalaryExculdingMinAndMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.AvgSalaryExculdingMinAndMax" />
       <module name="Leetcode" />
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProductDiffTwoPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.easy.MaxProductDiffTwoPairs" />
+    <configuration name="MinNumberMovesSeatEveryone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.easy.MinNumberMovesSeatEveryone" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinNumberMovesSeatEveryone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.easy.MinNumberMovesSeatEveryone" />
+    <configuration name="MinRoundsToCompleteAllTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.medium.hashtable.MinRoundsToCompleteAllTasks" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.easy.*" />
+          <option name="PATTERN" value="array.medium.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinRoundsToCompleteAllTasks" />
         <item itemvalue="Application.RankTransformOfArray" />
         <item itemvalue="Application.AvgSalaryExculdingMinAndMax" />
         <item itemvalue="Application.FindDistanceValueTwoArrays" />
         <item itemvalue="Application.MinNumberMovesSeatEveryone" />
-        <item itemvalue="Application.MaxProductDiffTwoPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00156" summary="Number of dates between dates">
-      <created>1672459882010</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1672459882010</updated>
     </task>
     <task id="LOCAL-00157" summary="count days spent together">
       <created>1672460783371</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672724392240</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Rank transform of array">
+      <created>1672801800358</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1672801800358</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Min Max game" />
     <MESSAGE value="Lucky Integer in array" />
     <MESSAGE value="Set mismatch" />
     <MESSAGE value="Distribute Candies" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Min number of moves to seat everyone" />
     <MESSAGE value="Find distance value between two arrays" />
     <MESSAGE value="Average salary excluding minimum and maximum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Average salary excluding minimum and maximum" />
+    <MESSAGE value="Rank transform of array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rank transform of array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -947,17 +947,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/RankTransformOfArray.java</url>
-          <line>35</line>
+          <line>30</line>
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/RankTransformOfArray.java</url>
-          <line>29</line>
+          <line>25</line>
           <option name="timeStamp" value="199" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/hashtable/RankTransformOfArray.java</url>
-          <line>19</line>
+          <line>17</line>
           <option name="timeStamp" value="200" />
         </line-breakpoint>
       </breakpoints>
