@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/DegreeOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/medium/MinArrowsBurstballoons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DegreeOfArray">
+  <component name="RunManager" selected="Application.MinArrowsBurstballoons">
     <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.easy.BaseballGame" />
       <module name="Leetcode" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.math.SumDigitsAfterConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.math.SumDigitsAfterConvert" />
+    <configuration name="MinArrowsBurstballoons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.medium.MinArrowsBurstballoons" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.math.*" />
+          <option name="PATTERN" value="greedy.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinArrowsBurstballoons" />
         <item itemvalue="Application.DegreeOfArray" />
         <item itemvalue="Application.CrawlerLogFolder" />
         <item itemvalue="Application.BaseballGame" />
         <item itemvalue="Application.CountIntegersEvenDigitSum" />
-        <item itemvalue="Application.string.easy.math.SumDigitsAfterConvert" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00168" summary="Count number of consistent strings">
-      <created>1672495457167</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1672495457167</updated>
     </task>
     <task id="LOCAL-00169" summary="Squares of sorted array">
       <created>1672561426239</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672823404906</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="Degree of array">
+      <created>1672847140330</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1672847140335</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Merge Similar items" />
     <MESSAGE value="check array formation through concatenation" />
     <MESSAGE value="Check if every row and column contains all numbers" />
     <MESSAGE value="find resultant array after removing anagrams" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Sum of digits after convert" />
     <MESSAGE value="Count integers with even digit sum" />
     <MESSAGE value="Baseball game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Baseball game" />
+    <MESSAGE value="Degree of array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Degree of array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -977,12 +977,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/DegreeOfArray.java</url>
-          <line>20</line>
+          <line>17</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/DegreeOfArray.java</url>
-          <line>16</line>
+          <line>14</line>
           <option name="timeStamp" value="215" />
         </line-breakpoint>
       </breakpoints>
