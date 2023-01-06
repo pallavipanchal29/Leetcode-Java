@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/greedy/medium/MinArrowsBurstballoons.java" afterDir="false" />
+    <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="Degree of array">
+      <change afterPath="$PROJECT_DIR$/src/string/easy/ReverseStringTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/PathCrossing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,26 +44,13 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinArrowsBurstballoons">
+  <component name="RunManager" selected="Application.PathCrossing">
     <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.easy.BaseballGame" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stack.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountIntegersEvenDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.math.CountIntegersEvenDigitSum" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PathCrossing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.PathCrossing" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathCrossing" />
         <item itemvalue="Application.MinArrowsBurstballoons" />
         <item itemvalue="Application.DegreeOfArray" />
         <item itemvalue="Application.CrawlerLogFolder" />
         <item itemvalue="Application.BaseballGame" />
-        <item itemvalue="Application.CountIntegersEvenDigitSum" />
       </list>
     </recent_temporary>
   </component>
