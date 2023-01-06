@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/RearrangeSpacesBetweenWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/StudentAttendanceRecordOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RearrangeSpacesBetweenWords">
-    <configuration name="DegreeOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.DegreeOfArray" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StudentAttendanceRecordOne">
     <configuration name="MaximumIceCreamBars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.medium.MaximumIceCreamBars" />
       <module name="Leetcode" />
@@ -109,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentAttendanceRecordOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.StudentAttendanceRecordOne" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentAttendanceRecordOne" />
         <item itemvalue="Application.RearrangeSpacesBetweenWords" />
         <item itemvalue="Application.MaximumIceCreamBars" />
         <item itemvalue="Application.PathCrossing" />
         <item itemvalue="Application.MinArrowsBurstballoons" />
-        <item itemvalue="Application.DegreeOfArray" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00171" summary="Mean of array after removing elements">
-      <created>1672562322916</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1672562322916</updated>
     </task>
     <task id="LOCAL-00172" summary="Valid mountain array">
       <created>1672563651947</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672974291268</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="Rearrange spaces between words">
+      <created>1672976215830</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1672976215830</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="find resultant array after removing anagrams" />
     <MESSAGE value="Perfect number" />
     <MESSAGE value="Minimum absolute difference" />
     <MESSAGE value="Delete columns to make sorted" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Degree of array" />
     <MESSAGE value="Path Crossing" />
     <MESSAGE value="Maximum ice cream bars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maximum ice cream bars" />
+    <MESSAGE value="Rearrange spaces between words" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearrange spaces between words" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1002,7 +1002,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/easy/RearrangeSpacesBetweenWords.java</url>
-          <line>35</line>
+          <line>28</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
       </breakpoints>
