@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/CircularSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/easy/CountAsterisks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/DefuseTheBomb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CircularSentence">
+  <component name="RunManager" selected="Application.DefuseTheBomb">
     <configuration name="BuddyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.BuddyStrings" />
       <module name="Leetcode" />
@@ -60,6 +59,19 @@
     </configuration>
     <configuration name="CircularSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.CircularSentence" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefuseTheBomb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.DefuseTheBomb" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -97,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.hashtable.ShortestDistanceToCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.ShortestDistanceToCharacter" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefuseTheBomb" />
         <item itemvalue="Application.CircularSentence" />
         <item itemvalue="Application.GreatestEnglishLetterUpperLowerCase" />
         <item itemvalue="Application.StrongPasswordCheckerTwo" />
         <item itemvalue="Application.BuddyStrings" />
-        <item itemvalue="Application.string.easy.hashtable.ShortestDistanceToCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00178" summary="Number of pairs with absolute diff k">
-      <created>1672633919647</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1672633919647</updated>
     </task>
     <task id="LOCAL-00179" summary="Two out of three">
       <created>1672634373083</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672983335686</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="Circular sentence">
+      <created>1672985284411</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1672985284412</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Min number of moves to seat everyone" />
     <MESSAGE value="Find distance value between two arrays" />
     <MESSAGE value="Average salary excluding minimum and maximum" />
     <MESSAGE value="Rank transform of array" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Buddy Strings" />
     <MESSAGE value="Strong password checker two" />
     <MESSAGE value="Greatest english letter in upper and lower case string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Greatest english letter in upper and lower case string" />
+    <MESSAGE value="Circular sentence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular sentence" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1018,8 +1017,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/easy/CircularSentence.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="247" />
+          <line>8</line>
+          <option name="timeStamp" value="248" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
