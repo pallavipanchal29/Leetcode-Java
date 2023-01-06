@@ -1,4 +1,4 @@
-package string.easy;
+package string.easy.hashtable;
 
 import java.util.TreeSet;
 
