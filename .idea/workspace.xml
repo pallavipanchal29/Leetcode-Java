@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/BuddyStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/StrongPasswordCheckerTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/easy/ShortestDistanceToCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/hashtable/ShortestDistanceToCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuddyStrings">
+  <component name="RunManager" selected="Application.StrongPasswordCheckerTwo">
     <configuration name="BuddyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.BuddyStrings" />
       <module name="Leetcode" />
@@ -58,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.NumberOfLinesWriteString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.NumberOfLinesWriteString" />
+    <configuration name="StrongPasswordCheckerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.StrongPasswordCheckerTwo" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.RearrangeSpacesBetweenWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.RearrangeSpacesBetweenWords" />
+    <configuration name="string.easy.NumberOfLinesWriteString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.NumberOfLinesWriteString" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrongPasswordCheckerTwo" />
         <item itemvalue="Application.BuddyStrings" />
         <item itemvalue="Application.string.easy.hashtable.ShortestDistanceToCharacter" />
         <item itemvalue="Application.string.easy.NumberOfLinesWriteString" />
         <item itemvalue="Application.string.easy.StudentAttendanceRecordOne" />
-        <item itemvalue="Application.string.easy.RearrangeSpacesBetweenWords" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00175" summary="number of distinct averages">
-      <created>1672566361775</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1672566361775</updated>
     </task>
     <task id="LOCAL-00176" summary="Sum of unique elements">
       <created>1672566997403</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672978509452</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="Buddy Strings">
+      <created>1672980969103</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1672980969103</updated>
+    </task>
+    <option name="localTasksCounter" value="225" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Find highest altitude" />
     <MESSAGE value="Maximum units on truck" />
     <MESSAGE value="Maximum product difference between two pairs" />
     <MESSAGE value="Min number of moves to seat everyone" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Student attendance record one" />
     <MESSAGE value="Number of lines to write string" />
     <MESSAGE value="Shortest distance to character" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shortest distance to character" />
+    <MESSAGE value="Buddy Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buddy Strings" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1007,9 +1006,10 @@
           <option name="timeStamp" value="237" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/easy/hashtable/BuddyStrings.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="241" />
+          <condition expression="i == 12" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/string/easy/StrongPasswordCheckerTwo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="244" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
