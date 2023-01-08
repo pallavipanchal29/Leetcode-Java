@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/StringMatchingInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/hashtable/VowelSubstringsOfString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringMatchingInArray">
-    <configuration name="LemonadeChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.easy.LemonadeChange" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedy.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VowelSubstringsOfString">
     <configuration name="MaxNumberOfBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.MaxNumberOfBalloons" />
       <module name="Leetcode" />
@@ -109,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VowelSubstringsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.VowelSubstringsOfString" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VowelSubstringsOfString" />
         <item itemvalue="Application.StringMatchingInArray" />
         <item itemvalue="Application.MaxNumberOfBalloons" />
         <item itemvalue="Application.OccurrencesAfterBigram" />
         <item itemvalue="Application.VerifyingAlienDictionary" />
-        <item itemvalue="Application.LemonadeChange" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00189" summary="Fair candy swap">
-      <created>1672641922165</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1672641922165</updated>
     </task>
     <task id="LOCAL-00190" summary="Check if all characters have equal occurances">
       <created>1672642308359</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673155177245</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="String matching in array">
+      <created>1673155665200</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1673155665200</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Add digits" />
     <MESSAGE value="Sum of digits after convert" />
     <MESSAGE value="Count integers with even digit sum" />
     <MESSAGE value="Baseball game" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Verifying alien dictionary" />
     <MESSAGE value="Occurences after bigram" />
     <MESSAGE value="Maximum number of balloons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maximum number of balloons" />
+    <MESSAGE value="String matching in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="String matching in array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1072,8 +1072,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/easy/StringMatchingInArray.java</url>
-          <line>18</line>
+          <line>15</line>
           <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/hashtable/VowelSubstringsOfString.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="279" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
