@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/VerifyingAlienDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/OccurrencesAfterBigram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +43,13 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VerifyingAlienDictionary">
-    <configuration name="IfOneStringSwapMakesStringsEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.IfOneStringSwapMakesStringsEqual" />
+  <component name="RunManager" selected="Application.OccurrencesAfterBigram">
+    <configuration name="LemonadeChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.easy.LemonadeChange" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="PATTERN" value="greedy.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LemonadeChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.easy.LemonadeChange" />
+    <configuration name="OccurrencesAfterBigram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.OccurrencesAfterBigram" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.easy.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OccurrencesAfterBigram" />
         <item itemvalue="Application.VerifyingAlienDictionary" />
         <item itemvalue="Application.LemonadeChange" />
         <item itemvalue="Application.ReplaceQuestionsMarksAvoidRepeatingChars" />
         <item itemvalue="Application.ReverseStringTwo" />
-        <item itemvalue="Application.IfOneStringSwapMakesStringsEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00186" summary="Unique Number of occurances">
-      <created>1672638998379</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1672638998379</updated>
     </task>
     <task id="LOCAL-00187" summary="N repeated elements in 2N array">
       <created>1672640050385</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673152748868</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="Verifying alien dictionary">
+      <created>1673153665005</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1673153665005</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Self Dividing numbers" />
     <MESSAGE value="Count digits that divide a number" />
     <MESSAGE value="Happy number" />
     <MESSAGE value="Add digits" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Reverse string two" />
     <MESSAGE value="Replace all Questions marks to avoid repeating characters" />
     <MESSAGE value="Lemonade Change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lemonade Change" />
+    <MESSAGE value="Verifying alien dictionary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Verifying alien dictionary" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1059,6 +1059,16 @@
           <url>file://$PROJECT_DIR$/src/greedy/easy/LemonadeChange.java</url>
           <line>10</line>
           <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/VerifyingAlienDictionary.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/OccurrencesAfterBigram.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="277" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
