@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/IfNumbersAreAscendingSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/SortingTheSentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00191" summary="Rings and rods">
-      <created>1672643465497</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1672643465497</updated>
     </task>
     <task id="LOCAL-00192" summary="Merge Similar items">
       <created>1672644045101</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673157075110</updated>
     </task>
-    <option name="localTasksCounter" value="240" />
+    <task id="LOCAL-00240" summary="check if numbers are strictly ascending">
+      <created>1673157819022</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1673157819023</updated>
+    </task>
+    <option name="localTasksCounter" value="241" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Count integers with even digit sum" />
     <MESSAGE value="Baseball game" />
     <MESSAGE value="Degree of array" />
     <MESSAGE value="Path Crossing" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Maximum number of balloons" />
     <MESSAGE value="String matching in array" />
     <MESSAGE value="Count Vowel Substrings of string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Count Vowel Substrings of string" />
+    <MESSAGE value="check if numbers are strictly ascending" />
+    <option name="LAST_COMMIT_MESSAGE" value="check if numbers are strictly ascending" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1079,11 +1079,6 @@
           <url>file://$PROJECT_DIR$/src/string/easy/hashtable/VowelSubstringsOfString.java</url>
           <line>13</line>
           <option name="timeStamp" value="279" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/easy/IfNumbersAreAscendingSentence.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="282" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
