@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/medium/hashtable/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/medium/ThreeSumClosest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/medium/hashtable/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/medium/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSum">
+  <component name="RunManager" selected="Application.ThreeSumClosest">
     <configuration name="CountPairsOfSimilarStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.CountPairsOfSimilarStrings" />
       <module name="Leetcode" />
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.medium.hashtable.ThreeSum" />
+    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.medium.ThreeSumClosest" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.medium.hashtable.*" />
+          <option name="PATTERN" value="array.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VowelSubstringsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.VowelSubstringsOfString" />
+    <configuration name="array.medium.ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.medium.ThreeSum" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
+          <option name="PATTERN" value="array.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.ThreeSumClosest" />
+        <item itemvalue="Application.array.medium.ThreeSum" />
         <item itemvalue="Application.MonotonicArray" />
         <item itemvalue="Application.CountPairsOfSimilarStrings" />
         <item itemvalue="Application.IfNumbersAreAscendingSentence" />
-        <item itemvalue="Application.VowelSubstringsOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +128,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00195" summary="find resultant array after removing anagrams">
-      <created>1672647251374</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1672647251374</updated>
     </task>
     <task id="LOCAL-00196" summary="Perfect number">
       <created>1672650943422</created>
@@ -471,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673272389743</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="Three sum">
+      <created>1673288116933</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1673288116933</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +480,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Maximum ice cream bars" />
     <MESSAGE value="Rearrange spaces between words" />
     <MESSAGE value="Student attendance record one" />
     <MESSAGE value="Number of lines to write string" />
@@ -504,7 +504,8 @@
     <MESSAGE value="Contains duplicate two- sliding window" />
     <MESSAGE value="Count Pairs of similar strings" />
     <MESSAGE value="Monotonic array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Monotonic array" />
+    <MESSAGE value="Three sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Three sum" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1086,14 +1087,24 @@
           <option name="timeStamp" value="281" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/medium/hashtable/ThreeSum.java</url>
-          <line>54</line>
+          <url>file://$PROJECT_DIR$/src/array/medium/ThreeSum.java</url>
+          <line>43</line>
           <option name="timeStamp" value="285" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/medium/hashtable/ThreeSum.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/array/medium/ThreeSum.java</url>
+          <line>22</line>
           <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/medium/ThreeSumClosest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/medium/ThreeSumClosest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="288" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
