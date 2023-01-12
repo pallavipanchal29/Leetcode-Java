@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/DesignHashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/NUniqueIntegersSumUptoZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/easy/DegreeOfArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DegreeOfArray">
+  <component name="RunManager" selected="Application.NUniqueIntegersSumUptoZero">
     <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.easy.CanPlaceFlowers" />
       <module name="Leetcode" />
@@ -71,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonotonicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.MonotonicArray" />
+    <configuration name="NUniqueIntegersSumUptoZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.NUniqueIntegersSumUptoZero" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NUniqueIntegersSumUptoZero" />
         <item itemvalue="Application.DegreeOfArray" />
         <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.array.medium.ThreeSum" />
-        <item itemvalue="Application.MonotonicArray" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00199" summary="Find highest altitude">
-      <created>1672719643883</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1672719643883</updated>
     </task>
     <task id="LOCAL-00200" summary="Maximum units on truck">
       <created>1672721279180</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673541211406</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="Design hashmap">
+      <created>1673541780336</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1673541780336</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Shortest distance to character" />
     <MESSAGE value="Buddy Strings" />
     <MESSAGE value="Strong password checker two" />
     <MESSAGE value="Greatest english letter in upper and lower case string" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Three sum closest" />
     <MESSAGE value="Can Place flowers" />
     <MESSAGE value="Degree of array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Degree of array" />
+    <MESSAGE value="Design hashmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design hashmap" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1095,6 +1094,11 @@
           <url>file://$PROJECT_DIR$/src/array/medium/ThreeSumClosest.java</url>
           <line>15</line>
           <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/NUniqueIntegersSumUptoZero.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="290" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
