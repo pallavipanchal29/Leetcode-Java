@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/medium/ThreeSumClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/easy/CanPlaceFlowers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/medium/hashtable/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/medium/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +43,13 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSumClosest">
-    <configuration name="CountPairsOfSimilarStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.CountPairsOfSimilarStrings" />
+  <component name="RunManager" selected="Application.CanPlaceFlowers">
+    <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.easy.CanPlaceFlowers" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="greedy.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfNumbersAreAscendingSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.IfNumbersAreAscendingSentence" />
+    <configuration name="CountPairsOfSimilarStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.CountPairsOfSimilarStrings" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="array.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.array.medium.ThreeSum" />
         <item itemvalue="Application.MonotonicArray" />
         <item itemvalue="Application.CountPairsOfSimilarStrings" />
-        <item itemvalue="Application.IfNumbersAreAscendingSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00196" summary="Perfect number">
-      <created>1672650943422</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1672650943422</updated>
     </task>
     <task id="LOCAL-00197" summary="Minimum absolute difference">
       <created>1672718018253</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673288116933</updated>
     </task>
-    <option name="localTasksCounter" value="245" />
+    <task id="LOCAL-00245" summary="Three sum closest">
+      <created>1673288766287</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1673288766287</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Rearrange spaces between words" />
     <MESSAGE value="Student attendance record one" />
     <MESSAGE value="Number of lines to write string" />
     <MESSAGE value="Shortest distance to character" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Count Pairs of similar strings" />
     <MESSAGE value="Monotonic array" />
     <MESSAGE value="Three sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Three sum" />
+    <MESSAGE value="Three sum closest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Three sum closest" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1098,12 +1097,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/medium/ThreeSumClosest.java</url>
-          <line>29</line>
+          <line>24</line>
           <option name="timeStamp" value="287" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/medium/ThreeSumClosest.java</url>
-          <line>18</line>
+          <line>15</line>
           <option name="timeStamp" value="288" />
         </line-breakpoint>
       </breakpoints>
