@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/MakeArraysEqualByReversing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/easy/FinalPricesWithSpecialDiscount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00202" summary="Min number of moves to seat everyone">
-      <created>1672722128269</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1672722128269</updated>
     </task>
     <task id="LOCAL-00203" summary="Find distance value between two arrays">
       <created>1672723873718</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673543442668</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="Can you make array equal by reversing">
+      <created>1673543887346</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1673543887346</updated>
+    </task>
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Greatest english letter in upper and lower case string" />
     <MESSAGE value="Circular sentence" />
     <MESSAGE value="Defuse the bomb" />
     <MESSAGE value="count asterisks" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Design hashmap" />
     <MESSAGE value="Find N unique integers sum upto zero" />
     <MESSAGE value="Number of students doing homework at given time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Number of students doing homework at given time" />
+    <MESSAGE value="Can you make array equal by reversing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can you make array equal by reversing" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
