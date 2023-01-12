@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/greedy/easy/CanPlaceFlowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/hashtable/DegreeOfArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CanPlaceFlowers">
+  <component name="RunManager" selected="Application.DegreeOfArray">
     <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.easy.CanPlaceFlowers" />
       <module name="Leetcode" />
@@ -57,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountPairsOfSimilarStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.CountPairsOfSimilarStrings" />
+    <configuration name="DegreeOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.hashtable.DegreeOfArray" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="array.easy.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DegreeOfArray" />
         <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.array.medium.ThreeSum" />
         <item itemvalue="Application.MonotonicArray" />
-        <item itemvalue="Application.CountPairsOfSimilarStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00197" summary="Minimum absolute difference">
-      <created>1672718018253</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1672718018253</updated>
     </task>
     <task id="LOCAL-00198" summary="Delete columns to make sorted">
       <created>1672718777655</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673288766287</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="Can Place flowers">
+      <created>1673540431435</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1673540431435</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Student attendance record one" />
     <MESSAGE value="Number of lines to write string" />
     <MESSAGE value="Shortest distance to character" />
     <MESSAGE value="Buddy Strings" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Monotonic array" />
     <MESSAGE value="Three sum" />
     <MESSAGE value="Three sum closest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Three sum closest" />
+    <MESSAGE value="Can Place flowers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can Place flowers" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
