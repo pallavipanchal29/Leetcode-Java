@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/queue/easy/TimeNeededToBuyTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/SumOfOddLengthSubarrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00213" summary="Add digits">
-      <created>1672810025768</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1672810025768</updated>
     </task>
     <task id="LOCAL-00214" summary="Sum of digits after convert">
       <created>1672817548363</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673676031138</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="Time needed to buy tickets">
+      <created>1673677136646</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1673677136646</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Maximum number of balloons" />
     <MESSAGE value="String matching in array" />
     <MESSAGE value="Count Vowel Substrings of string" />
     <MESSAGE value="check if numbers are strictly ascending" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Element occuring more than 25 percent in sorted array" />
     <MESSAGE value="Decompress run length encoded list" />
     <MESSAGE value="Count Students Unable to eat lunch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Count Students Unable to eat lunch" />
+    <MESSAGE value="Time needed to buy tickets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Time needed to buy tickets" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1116,12 +1116,12 @@
           <option name="timeStamp" value="298" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/easy/TimeNeededToBuyTickets.java</url>
+          <url>file://$PROJECT_DIR$/src/array/easy/TimeNeededToBuyTickets.java</url>
           <line>26</line>
           <option name="timeStamp" value="299" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/easy/TimeNeededToBuyTickets.java</url>
+          <url>file://$PROJECT_DIR$/src/array/easy/TimeNeededToBuyTickets.java</url>
           <line>14</line>
           <option name="timeStamp" value="300" />
         </line-breakpoint>
