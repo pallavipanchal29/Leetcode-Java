@@ -1,4 +1,4 @@
-package string.easy;
+package string.easy.twopointers;
 
 public class ValidPalindrome {
     public static void main(String[] args) {

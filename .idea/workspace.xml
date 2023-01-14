@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/twopointers/FirstPalindromicStringArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/easy/IfAllAsAppearBeforeBs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/easy/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/twopointers/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/easy/ValidPalindromeTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/twopointers/ValidPalindromeTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstPalindromicStringArray">
+  <component name="RunManager" selected="Application.IfAllAsAppearBeforeBs">
     <configuration name="DecompressRunLengthEncodedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.DecompressRunLengthEncodedList" />
       <module name="Leetcode" />
@@ -63,6 +65,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.easy.twopointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IfAllAsAppearBeforeBs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.IfAllAsAppearBeforeBs" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="queue.easy.LastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.easy.LastStoneWeight" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IfAllAsAppearBeforeBs" />
         <item itemvalue="Application.FirstPalindromicStringArray" />
         <item itemvalue="Application.array.easy.TimeNeededToBuyTickets" />
         <item itemvalue="Application.DecompressRunLengthEncodedList" />
         <item itemvalue="Application.MinimumTimeVisitingAllPoints" />
-        <item itemvalue="Application.queue.easy.LastStoneWeight" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00215" summary="Count integers with even digit sum">
-      <created>1672818189175</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1672818189175</updated>
     </task>
     <task id="LOCAL-00216" summary="Baseball game">
       <created>1672823404906</created>
@@ -471,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673678047080</updated>
     </task>
-    <option name="localTasksCounter" value="264" />
+    <task id="LOCAL-00264" summary="First palindromic string in array">
+      <created>1673678720381</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1673678720381</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +481,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Count Vowel Substrings of string" />
     <MESSAGE value="check if numbers are strictly ascending" />
     <MESSAGE value="Contains duplicate two- sliding window" />
     <MESSAGE value="Count Pairs of similar strings" />
@@ -504,7 +505,8 @@
     <MESSAGE value="Count Students Unable to eat lunch" />
     <MESSAGE value="Time needed to buy tickets" />
     <MESSAGE value="Sum of all odd length subarrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sum of all odd length subarrays" />
+    <MESSAGE value="First palindromic string in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="First palindromic string in array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -683,7 +685,7 @@
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/easy/ValidPalindromeTwo.java</url>
+          <url>file://$PROJECT_DIR$/src/string/easy/twopointers/ValidPalindromeTwo.java</url>
           <line>22</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
