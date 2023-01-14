@@ -42,9 +42,9 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumTimeVisitingAllPoints">
-    <configuration name="CanMakeArithmaticProgressionSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.CanMakeArithmaticProgressionSequence" />
+  <component name="RunManager" selected="Application.DecompressRunLengthEncodedList">
+    <configuration name="DecompressRunLengthEncodedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.DecompressRunLengthEncodedList" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecompressRunLengthEncodedList" />
         <item itemvalue="Application.MinimumTimeVisitingAllPoints" />
         <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.IfTwoStringArraysEquivalent" />
         <item itemvalue="Application.KthMissingPositiveNumber" />
-        <item itemvalue="Application.CanMakeArithmaticProgressionSequence" />
       </list>
     </recent_temporary>
   </component>
