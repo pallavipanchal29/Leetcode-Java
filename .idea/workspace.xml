@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/queue/easy/LastStoneWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/DistanceBetweenBusStops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00207" summary="Sort Integers by number of 1 bits">
-      <created>1672803112690</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1672803112690</updated>
     </task>
     <task id="LOCAL-00208" summary="Subsequence of length k with largest sum">
       <created>1672804193206</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673547069996</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="Last Stone Weight">
+      <created>1673547986082</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1673547986082</updated>
+    </task>
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Remove letter to equalize frequency" />
     <MESSAGE value="Reverse string two" />
     <MESSAGE value="Replace all Questions marks to avoid repeating characters" />
     <MESSAGE value="Lemonade Change" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Can make arithmatic progression from sequence" />
     <MESSAGE value="Kth Missing positive integer" />
     <MESSAGE value="check if strings arrays are equivalent" />
-    <option name="LAST_COMMIT_MESSAGE" value="check if strings arrays are equivalent" />
+    <MESSAGE value="Last Stone Weight" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last Stone Weight" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1104,6 +1104,11 @@
           <url>file://$PROJECT_DIR$/src/array/easy/KthMissingPositiveNumber.java</url>
           <line>12</line>
           <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queue/easy/LastStoneWeight.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="297" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
