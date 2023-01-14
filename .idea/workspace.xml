@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/DistanceBetweenBusStops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/math/MinimumTimeVisitingAllPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LastStoneWeight">
+  <component name="RunManager" selected="Application.MinimumTimeVisitingAllPoints">
     <configuration name="CanMakeArithmaticProgressionSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.CanMakeArithmaticProgressionSequence" />
       <module name="Leetcode" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeArraysEqualByReversing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.easy.MakeArraysEqualByReversing" />
+    <configuration name="MinimumTimeVisitingAllPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.math.MinimumTimeVisitingAllPoints" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.easy.*" />
+          <option name="PATTERN" value="array.easy.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumTimeVisitingAllPoints" />
         <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.IfTwoStringArraysEquivalent" />
         <item itemvalue="Application.KthMissingPositiveNumber" />
         <item itemvalue="Application.CanMakeArithmaticProgressionSequence" />
-        <item itemvalue="Application.MakeArraysEqualByReversing" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00208" summary="Subsequence of length k with largest sum">
-      <created>1672804193206</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1672804193206</updated>
     </task>
     <task id="LOCAL-00209" summary="Target Indices after sorting array">
       <created>1672804535978</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673547986082</updated>
     </task>
-    <option name="localTasksCounter" value="257" />
+    <task id="LOCAL-00257" summary="Distance between bus stops">
+      <created>1673674145426</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1673674145426</updated>
+    </task>
+    <option name="localTasksCounter" value="258" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Reverse string two" />
     <MESSAGE value="Replace all Questions marks to avoid repeating characters" />
     <MESSAGE value="Lemonade Change" />
     <MESSAGE value="Verifying alien dictionary" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Kth Missing positive integer" />
     <MESSAGE value="check if strings arrays are equivalent" />
     <MESSAGE value="Last Stone Weight" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last Stone Weight" />
+    <MESSAGE value="Distance between bus stops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Distance between bus stops" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1109,6 +1109,11 @@
           <url>file://$PROJECT_DIR$/src/queue/easy/LastStoneWeight.java</url>
           <line>13</line>
           <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/math/MinimumTimeVisitingAllPoints.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="298" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
