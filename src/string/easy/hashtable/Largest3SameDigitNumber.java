@@ -1,4 +1,4 @@
-package string;
+package string.easy.hashtable;
 
 import java.util.HashMap;
 import java.util.Map;
