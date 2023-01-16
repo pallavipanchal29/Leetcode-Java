@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/datetime/MinOperationsConvertTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/medium/LexicographicallySmallestEquivalentString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/easy/LargestOddNumberInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00221" summary="Student attendance record one">
-      <created>1672976619236</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1672976619236</updated>
     </task>
     <task id="LOCAL-00222" summary="Number of lines to write string">
       <created>1672977268380</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673687694570</updated>
     </task>
-    <option name="localTasksCounter" value="270" />
+    <task id="LOCAL-00270" summary="Lexicographically smallest equivalent string">
+      <created>1673716131137</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1673716131137</updated>
+    </task>
+    <option name="localTasksCounter" value="271" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Three sum closest" />
     <MESSAGE value="Can Place flowers" />
     <MESSAGE value="Degree of array" />
     <MESSAGE value="Design hashmap" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Counting words with given prefix" />
     <MESSAGE value="Percentage of letter in string" />
     <MESSAGE value="Calculate digit sum of string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculate digit sum of string" />
+    <MESSAGE value="Lexicographically smallest equivalent string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lexicographically smallest equivalent string" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
