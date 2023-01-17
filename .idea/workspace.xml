@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/KBeautyOfNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/Largest3SameDigitNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/hashtable/Largest3SameDigitNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/easy/datetime/MinOperationsConvertTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/easy/datetime/MinOperationsConvertTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +43,9 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KBeautyOfNumber">
+  <component name="RunManager" selected="Application.MinOperationsConvertTime">
     <configuration name="CalculateDigitSumString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.CalculateDigitSumString" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountingWordsGivenPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.CountingWordsGivenPrefix" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -77,6 +63,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinOperationsConvertTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.easy.datetime.MinOperationsConvertTime" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.datetime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinOperationsConvertTime" />
         <item itemvalue="Application.KBeautyOfNumber" />
         <item itemvalue="Application.string.easy.hashtable.Largest3SameDigitNumber" />
         <item itemvalue="Application.CalculateDigitSumString" />
         <item itemvalue="Application.PercentageOfLetterInString" />
-        <item itemvalue="Application.CountingWordsGivenPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00224" summary="Buddy Strings">
-      <created>1672980969103</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1672980969103</updated>
     </task>
     <task id="LOCAL-00225" summary="Strong password checker two">
       <created>1672982409187</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673846660515</updated>
     </task>
-    <option name="localTasksCounter" value="273" />
+    <task id="LOCAL-00273" summary="K - beauty of number">
+      <created>1673847105150</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1673847105150</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Design hashmap" />
     <MESSAGE value="Find N unique integers sum upto zero" />
     <MESSAGE value="Number of students doing homework at given time" />
     <MESSAGE value="Can you make array equal by reversing" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Lexicographically smallest equivalent string" />
     <MESSAGE value="Largest Odd number in string" />
     <MESSAGE value="Largest 3 same digit number string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Largest 3 same digit number string" />
+    <MESSAGE value="K - beauty of number" />
+    <option name="LAST_COMMIT_MESSAGE" value="K - beauty of number" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1143,8 +1142,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/easy/KBeautyOfNumber.java</url>
-          <line>16</line>
+          <line>11</line>
           <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/datetime/MinOperationsConvertTime.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/easy/datetime/MinOperationsConvertTime.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="310" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
