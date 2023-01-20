@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/math/AddToArrayFormInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/math/PartitionArrayEqualParrtsEqualSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddToArrayFormInteger">
+  <component name="RunManager" selected="Application.PartitionArrayEqualParrtsEqualSum">
     <configuration name="AddToArrayFormInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.easy.math.AddToArrayFormInteger" />
       <module name="Leetcode" />
@@ -83,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PartitionArrayEqualParrtsEqualSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.math.PartitionArrayEqualParrtsEqualSum" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.easy.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallestLetterGreaterThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.easy.SmallestLetterGreaterThanTarget" />
       <module name="Leetcode" />
@@ -96,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.easy.hashtable.Largest3SameDigitNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.hashtable.Largest3SameDigitNumber" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionArrayEqualParrtsEqualSum" />
         <item itemvalue="Application.AddToArrayFormInteger" />
         <item itemvalue="Application.SmallestLetterGreaterThanTarget" />
         <item itemvalue="Application.MinOperationsConvertTime" />
         <item itemvalue="Application.KBeautyOfNumber" />
-        <item itemvalue="Application.string.easy.hashtable.Largest3SameDigitNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00227" summary="Circular sentence">
-      <created>1672985284411</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1672985284412</updated>
     </task>
     <task id="LOCAL-00228" summary="Defuse the bomb">
       <created>1673013001101</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674235514768</updated>
     </task>
-    <option name="localTasksCounter" value="276" />
+    <task id="LOCAL-00276" summary="Add to array form of integer">
+      <created>1674236083176</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1674236083176</updated>
+    </task>
+    <option name="localTasksCounter" value="277" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Can you make array equal by reversing" />
     <MESSAGE value="Final prices with special discount in shop" />
     <MESSAGE value="Can make arithmatic progression from sequence" />
     <MESSAGE value="Kth Missing positive integer" />
@@ -504,7 +503,8 @@
     <MESSAGE value="K - beauty of number" />
     <MESSAGE value="Find smallest letter greater than target" />
     <MESSAGE value="Smallest range One" />
-    <option name="LAST_COMMIT_MESSAGE" value="Smallest range One" />
+    <MESSAGE value="Add to array form of integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add to array form of integer" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1162,7 +1162,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/easy/math/AddToArrayFormInteger.java</url>
-          <line>15</line>
+          <line>13</line>
           <option name="timeStamp" value="312" />
         </line-breakpoint>
       </breakpoints>
