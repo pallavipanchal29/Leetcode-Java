@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/easy/CountPrefixesOfGivenString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/easy/SmallestLetterGreaterThanTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/math/SmallestRangeOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00225" summary="Strong password checker two">
-      <created>1672982409187</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1672982409187</updated>
     </task>
     <task id="LOCAL-00226" summary="Greatest english letter in upper and lower case string">
       <created>1672983335686</created>
@@ -472,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673847105150</updated>
     </task>
-    <option name="localTasksCounter" value="274" />
+    <task id="LOCAL-00274" summary="Find smallest letter greater than target">
+      <created>1674235135264</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1674235135264</updated>
+    </task>
+    <option name="localTasksCounter" value="275" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Find N unique integers sum upto zero" />
     <MESSAGE value="Number of students doing homework at given time" />
     <MESSAGE value="Can you make array equal by reversing" />
     <MESSAGE value="Final prices with special discount in shop" />
@@ -505,7 +503,8 @@
     <MESSAGE value="Largest Odd number in string" />
     <MESSAGE value="Largest 3 same digit number string" />
     <MESSAGE value="K - beauty of number" />
-    <option name="LAST_COMMIT_MESSAGE" value="K - beauty of number" />
+    <MESSAGE value="Find smallest letter greater than target" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find smallest letter greater than target" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1158,7 +1157,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/string/easy/SmallestLetterGreaterThanTarget.java</url>
-          <line>11</line>
+          <line>9</line>
           <option name="timeStamp" value="311" />
         </line-breakpoint>
       </breakpoints>
