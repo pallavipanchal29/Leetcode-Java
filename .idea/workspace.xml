@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8303bf17-bc1b-425e-b8de-1cee9d950ca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/easy/math/SmallestRangeOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/easy/math/AddToArrayFormInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +43,13 @@
       <recent name="E:\Java\DSA\Leetcode-Overall\Leetcode\src\array\easy\slidingwindow" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SmallestLetterGreaterThanTarget">
-    <configuration name="CalculateDigitSumString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.easy.CalculateDigitSumString" />
+  <component name="RunManager" selected="Application.AddToArrayFormInteger">
+    <configuration name="AddToArrayFormInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.easy.math.AddToArrayFormInteger" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="array.easy.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddToArrayFormInteger" />
         <item itemvalue="Application.SmallestLetterGreaterThanTarget" />
         <item itemvalue="Application.MinOperationsConvertTime" />
         <item itemvalue="Application.KBeautyOfNumber" />
         <item itemvalue="Application.string.easy.hashtable.Largest3SameDigitNumber" />
-        <item itemvalue="Application.CalculateDigitSumString" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660797130337</updated>
-    </task>
-    <task id="LOCAL-00226" summary="Greatest english letter in upper and lower case string">
-      <created>1672983335686</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1672983335686</updated>
     </task>
     <task id="LOCAL-00227" summary="Circular sentence">
       <created>1672985284411</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674235135264</updated>
     </task>
-    <option name="localTasksCounter" value="275" />
+    <task id="LOCAL-00275" summary="Smallest range One">
+      <created>1674235514768</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1674235514768</updated>
+    </task>
+    <option name="localTasksCounter" value="276" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -479,7 +479,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Number of students doing homework at given time" />
     <MESSAGE value="Can you make array equal by reversing" />
     <MESSAGE value="Final prices with special discount in shop" />
     <MESSAGE value="Can make arithmatic progression from sequence" />
@@ -504,7 +503,8 @@
     <MESSAGE value="Largest 3 same digit number string" />
     <MESSAGE value="K - beauty of number" />
     <MESSAGE value="Find smallest letter greater than target" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find smallest letter greater than target" />
+    <MESSAGE value="Smallest range One" />
+    <option name="LAST_COMMIT_MESSAGE" value="Smallest range One" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1159,6 +1159,11 @@
           <url>file://$PROJECT_DIR$/src/string/easy/SmallestLetterGreaterThanTarget.java</url>
           <line>9</line>
           <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/easy/math/AddToArrayFormInteger.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="312" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
